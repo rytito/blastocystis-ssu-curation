@@ -4,11 +4,6 @@ A single open-source Python pipeline that fetches, validates, places, clusters,
 and reports on **every _Blastocystis_ SSU rRNA record on NCBI GenBank** — with
 full provenance for every call it makes.
 
-Presented at the 5th International _Blastocystis_ Conference (La Laguna,
-Tenerife, September 2026): *"What the public database tells us — when we let
-it: a curated re-reading of every Blastocystis SSU rRNA record on GenBank"*
-(Raul Y. Tito Tadeo).
-
 ## Why
 
 _Blastocystis_ subtyping depends almost entirely on SSU rRNA. When a paper
