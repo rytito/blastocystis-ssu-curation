@@ -93,18 +93,24 @@ rRNA_pipeline/
 └── pipeline_log.txt
 ```
 
-## Headline results (run of 2026-05-20)
+## Headline results (run of 2026-08-13)
 
-- 17,717 records pulled by the broad query → **1,045** near-full-length,
-  deduplicated, audited sequences across 60 ST labels (92.8 % known).
+The provenance manifest and per-ST summary of the latest run are in
+[`results/run_20260813/`](results/run_20260813/).
+
+- 18,074 records pulled by the broad query → **1,052** near-full-length,
+  deduplicated, audited sequences across 62 ST labels (92.7 % known).
 - Tight intra-ST clustering: median intra-distance 0.021 vs inter 0.121
   (Cliff's δ = −0.981) — STs are real, separable clusters.
-- 17 provisional `novel_N` clusters; `novel_3` (7 records, six tortoise
-  species, two countries: KT438705–KT438710 + EF209018) is consistent with a
-  genuine chelonian lineage and is offered as a hypothesis for formal
-  follow-up under the Stensvold & Clark criteria.
+- 18 provisional `novel_N` clusters; the tortoise cluster (7 records, six
+  tortoise species, two countries: KT438705–KT438710 + EF209018) is
+  consistent with a genuine chelonian lineage and is offered as a hypothesis
+  for formal follow-up under the Stensvold & Clark criteria.
 
 Numbers shift as new deposits land; the pipeline is designed to be re-run.
+Between the May and August 2026 runs, 10 new records entered the curated set,
+including the first direct ST42 record (Bos taurus, Portugal) and a new
+2-record novel cluster from Eurasian beaver (*Castor fiber*, Czechia).
 
 ## What it is not
 
