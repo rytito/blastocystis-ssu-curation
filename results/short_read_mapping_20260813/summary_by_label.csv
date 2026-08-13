@@ -1,0 +1,53 @@
+assigned,n,median_dist,high,top_hosts,top_countries
+ST3,4137,0.014,3468,Homo sapiens:3091; Unknown:511; Primates sp.:128,Unknown:692; China:333; Iran:271
+ST1,3028,0.0135,2448,Homo sapiens:2015; Unknown:414; Primates sp.:53,Unknown:431; China:303; Iran:235
+ST2,2140,0.0286,1552,Homo sapiens:1478; Unknown:299; Alouatta pigra:56,Unknown:292; Iran:226; Mexico:113
+ST5,902,0.01085,771,Sus scrofa:259; Unknown:181; Sus scrofa domesticus:67,China:137; Unknown:85; Egypt:65
+ST10,796,0.0203,606,Bos taurus:226; Ovis aries:123; Capra hircus:53,China:296; Egypt:66; Iran:52
+ST7,716,0.0542,317,Gallus gallus:226; Homo sapiens:177; Unknown:61,Brazil:181; Thailand:103; China:94
+ST4,631,0.0239,505,Homo sapiens:196; Unknown:154; water vole:38,Unknown:132; China:97; Portugal:62
+ST24,454,0.02515,348,Bos taurus:80; Ovis aries:75; Capra hircus:58,China:145; Portugal:38; Iran:34
+ST42,403,0.0188,297,Bos taurus:232; Unknown:51; Homo sapiens:26,China:90; Malaysia:38; France:34
+ST26,268,0.0237,185,Bos taurus:126; Ovis aries:26; Unknown:16,China:57; Egypt:26; USA:23
+ST25,248,0.0169,186,Bos taurus:141; Unknown:31; Bos grunniens:13,France:53; China:49; Japan:Kanagawa:20
+ST6,232,0.0297,183,Gallus gallus:79; Homo sapiens:69; Unknown:29,Lebanon:57; China:26; Unknown:21
+ST14,229,0.0258,178,Bos taurus:83; Unknown:21; Ovis aries:20,China:38; USA:20; Portugal:17
+ST21,182,0.019549999999999998,140,Bos taurus:62; Camelus dromedarius:28; Ovis aries:12,China:60; Egypt:32; Malaysia:13
+ST44,171,0.015,141,Bos taurus:51; Camelus dromedarius:19; Unknown:13,China:46; Egypt:34; Spain:9
+ST12,145,0.0291,113,Bamaxiang pig:76; Unknown:18; Sus scrofa:16,"China: Bama Yao Autonomous County, Guangxi Province:77; China:14; Netherlands:10"
+ST8,121,0.0017,103,Unknown:37; Homo sapiens:21; Alouatta seniculus:18,"Unknown:41; Colombia:18; Argentina: Buenos Aires, Hurlingham:11"
+ST23,85,0.0234,56,Bos taurus:37; Tibetan Sheep:7; Ovis aries:6,China:31; Indonesia:18; USA:7
+ST15,75,0.0181,67,Sus scrofa:51; Sus scrofa domesticus:11; Ovis aries:4,Italy: Magliano Sabina (Rieti):27; Italy: Varco Sabino (Rieti):10; Italy: Poggio Catino (Rieti):7
+ST30,71,0.017,61,Camelus dromedarius:17; Ovis aries:11; Camelus bactrianus:9,China:19; Egypt:17; Portugal:7
+ST47,62,0.0337,36,Pan troglodytes:46; western lowland gorilla:6; Pan troglodytes verus:4,Senegal:38; China:6; United Kingdom: Howletts zoo:6
+ST34,58,0.0614,11,Gorilla gorilla:52; Equus asinus:3; Chelonoidis carbonarius (Red-footed tortoise):1,Unknown:52; China:3; Thailand:1
+ST43,57,0.0318,36,Bos taurus:19; Ovis aries:13; Capra hircus:8,Turkey:10; China:10; China: Qinghai:8
+ST49,54,0.0,45,Hydropotes inermis argyropus:21; Capreolus capreolus:16; Procapra przewalskii:4,South Korea:21; Poland:16; China:7
+novel_17,36,0.0468,19,Homo sapiens:14; Gallus gallus:8; Anser cygnoides:4,Brazil:11; Czech Republic:5; Poland: Warsaw:4
+ST27,31,0.1099,6,peafowl:13; Unknown:11; Peafowl:2,China:17; Unknown:11; Brazil:2
+ST11,28,0.07325000000000001,11,elephant:15; Elephas maximus:6; iguana:2,Australia:6; Netherlands:6; China:3
+ST13,27,0.1025,12,Rhinopithecus roxellana:5; Capra hircus:3; Roe Deer:2,China:9; Portugal:4; Spain:3
+ST17,24,0.01885,22,Bos taurus:4; Pogona vitticeps:3; Pogona vitticeps (Bearded dragon):3,China:5; USA:4; Thailand:3
+ST31,19,0.0483,10,Unknown:5; Tibetan Antelope:4; Elaphodus cephalophus:4,China:18; USA:1
+novel_2,16,0.03815,9,Rhinella marina:8; Sugar Glider:1; Iguana:1,Philippines:10; Unknown:2; Poland:2
+novel_5,16,0.00495,11,Unknown:12; Homo sapiens:2; mouflon:1,Unknown:10; Spain:2; Netherlands:2
+novel_8,15,0.0,14,Homo sapiens:11; Caretta caretta:1; Felis catus:1,Spain:4; Mediterranean Sea:1; Bangladesh:1
+ST35,13,0.0763,0,Sugar Glider:9; Rhinella marina:2; Unknown:1,China:9; Philippines:2; Colombia:1
+novel_4,12,0.03115,7,Bamaxiang pig:10; Sus scrofa:2,"China: Bama Yao Autonomous County, Guangxi Province:10; Argentina: Corrientes, Colonia Pando:2"
+novel_3,12,0.01615,7,Centrochelys sulcata (African spurred tortoise):4; Geochelones sulcata:1; Tiliqua scincoides:1,Unknown:5; Poland:3; Serbia:1
+ST46,11,0.1003,0,Macropus fuliginosus:8; Notamacropus rufogriseus:1; Unknown:1,China:8; China: Hebei:1; South Korea:1
+ST33,9,0.0623,4,Equus asinus:4; horses:3; Equus caballus:2,Algeria:3; China:2; China: Shanxi:2
+ST9,6,0.0554,1,Unknown:3; Homo sapiens:2; Gallus gallus:1,Unknown:3; Brazil:2; Malaysia:1
+novel_9,5,0.019,4,Homo sapiens:5,China:4; China: Hainan:1
+ST28,5,0.0374,3,Pavo cristatus:3; Phocoena phocoena:1; Merlangius merlangus:1,Brazil:2; Unknown:2; France:1
+novel_11,4,0.026549999999999997,3,Homo sapiens:2; Unknown:1; Vulpes vulpes:1,Zambia:1; Turkey:1; Colombia:1
+ST38,3,0.0148,3,water vole:3,United Kingdom: Wildwood:3
+ST48,2,0.1053,0,horses:2,Algeria:2
+novel_13,2,0.0,2,Unknown:2,Unknown:2
+novel_15,2,0.0352,1,Homo sapiens:2,Iran:2
+ST45,2,0.0,2,Homo sapiens:2,Iran:2
+ST36,2,0.014100000000000001,2,Sturnira lilium:1; Philander opossum:1,Mexico: Tabasco:2
+novel_10,1,0.028,1,Castor fiber:1,Slovakia: Zazriva:1
+ST37,1,0.0135,1,Rodent:1,Mexico: Nayarit:1
+ST32,1,0.0169,1,Unknown:1,Colombia:1
+ST29,1,0.0178,1,Gallus gallus:1,Brazil:1

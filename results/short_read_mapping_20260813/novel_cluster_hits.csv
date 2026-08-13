@@ -1,0 +1,122 @@
+host,host_source,country,collection_date,isolation_source,seq_tech,md5,length,accession,assigned,containment_dist,confidence,top5
+Sugar Glider,host_qualifier,China,2025,Unknown,Sanger,b6c57fc43edee41cd4df8585fb0dc88a,589,PX062013.1,novel_2,0.0138,high,novel_2:0.014; novel_2:0.014; novel_2:0.014; novel_2:0.022; ST36:0.351
+Homo sapiens,host_qualifier,Spain,2018,feces,Sanger,efd4f604da3cbaec12415321419d7221,607,PZ571668.1,novel_17,0.0283,high,novel_17:0.028; novel_17:0.035; ST7:0.145; ST7:0.147; ST7:0.147
+Homo sapiens,host_qualifier,Romania,24-Sep-2022,Unknown,Sanger,b1682f19dad4571c02a6c22060b37388,553,PZ318990.1,novel_17,0.0018,high,novel_17:0.002; novel_17:0.011; ST7:0.152; ST7:0.154; ST7:0.154
+Homo sapiens,host_qualifier,China: Hainan,2024-06,feces,Sanger,031779e1f5f3af7b9d55825d40a61f8a,434,PZ050781.1,novel_9,0.0188,high,novel_9:0.019; ST7:0.019; ST7:0.031; ST7:0.031; ST7:0.033
+Caretta caretta,host_qualifier,Mediterranean Sea,2011/2021,Unknown,Illumina,01341076bd81c64ca7874310f8ba851d,456,PX506237.1,novel_8,0.0156,high,novel_8:0.016; ST3:0.016; ST3:0.016; ST3:0.016; ST3:0.016
+Homo sapiens,host_qualifier,Poland: Warsaw,2018,cervix,Sanger,0c53d364a54a5cd42247ae3c57b7c783,261,PQ459514.1,novel_17,0.1063,medium,novel_17:0.106; novel_17:0.122; ST7:0.378; ST7:0.386; ST7:0.390
+Homo sapiens,host_qualifier,Poland: Warsaw,2018,anus,Sanger,931195679af7331b118b2ac4e72e2995,261,PQ459513.1,novel_17,0.0,high,novel_17:0.000; novel_17:0.024; ST7:0.287; ST7:0.295; ST7:0.299
+Homo sapiens,host_qualifier,Poland: Warsaw,2018,cervix,Sanger,931195679af7331b118b2ac4e72e2995,261,PQ459512.1,novel_17,0.0,high,novel_17:0.000; novel_17:0.024; ST7:0.287; ST7:0.295; ST7:0.299
+Homo sapiens,host_qualifier,Poland: Warsaw,2018,cervix,Sanger,931195679af7331b118b2ac4e72e2995,261,PQ459511.1,novel_17,0.0,high,novel_17:0.000; novel_17:0.024; ST7:0.287; ST7:0.295; ST7:0.299
+Felis catus,host_qualifier,Bangladesh,15-Jun-2023,feces,Sanger,39ed4ce975bdea229f1424dfaba3b1ed,603,PX106829.1,novel_8,0.0556,medium,novel_8:0.056; ST3:0.079; ST3:0.079; ST3:0.079; ST3:0.079
+Bird,host_qualifier,China: Qinghai,2021-05,fecal sample,Sanger,08dd62d06bc479dc8c728f47dc1de012,503,PV973226.1,novel_17,0.1351,medium,novel_17:0.135; novel_17:0.165; ST7:0.317; ST7:0.317; ST7:0.317
+Geochelones sulcata,host_qualifier,Serbia,Apr-2024,feces,Sanger,f1001ddd58278d2070423964a845f8f6,553,PV820625.1,novel_3,0.2357,low,novel_3:0.236; novel_3:0.238; novel_3:0.238; novel_3:0.238; novel_3:0.238
+Homo sapiens,host_qualifier,Afghanistan,2019,stool sample,Sanger,034a4c7ec11638052620506fc4e3194e,533,PV472029.1,novel_17,0.0,high,novel_17:0.000; novel_17:0.011; ST7:0.143; ST7:0.144; ST7:0.144
+Sus scrofa,host_qualifier,"Argentina: Corrientes, Colonia Pando",Unknown,feces,Sanger,ef48866b2dc8c3cf216ef943a687af98,423,PP900648.1,novel_4,0.0,high,novel_4:0.000; novel_4:0.000; ST12:0.000; ST5:0.007; ST5:0.007
+Sus scrofa,host_qualifier,"Argentina: Corrientes, Colonia Pando",Unknown,feces,Sanger,ef48866b2dc8c3cf216ef943a687af98,423,PP900647.1,novel_4,0.0,high,novel_4:0.000; novel_4:0.000; ST12:0.000; ST5:0.007; ST5:0.007
+Unknown,unknown,"Chile: Region de Los Rios, Valdivia",2023,Unknown,Sanger,20b821533d89dcb5789179786f397ef2,459,PV013380.1,novel_8,0.0,high,novel_8:0.000; ST3:0.000; ST3:0.000; ST3:0.000; ST3:0.000
+Homo sapiens,host_qualifier,Zambia,Unknown,feces,Illumina,b5d1ff79880797b96acc75a0f178e8bd,480,PQ336830.1,novel_11,0.0319,high,novel_11:0.032; ST1:0.032; ST1:0.034; ST1:0.034; ST1:0.043
+mouflon,host_qualifier,Cyprus,01-Apr-2023,faecal samples,Sanger,a57206a8aac26678349a51bc71bc0246,255,PQ631433.1,novel_5,0.1129,medium,novel_5:0.113; ST4:0.113; ST4:0.113; novel_5:0.113; novel_5:0.113
+Bamaxiang pig,isolation_source,"China: Bama Yao Autonomous County, Guangxi Province",May-2024,Bamaxiang pig,Sanger,62d3f70ef6d650ea9f8226cf057f3e21,527,PQ561155.1,novel_4,0.068,medium,novel_4:0.068; novel_4:0.068; ST12:0.070; ST5:0.074; ST5:0.074
+Bamaxiang pig,isolation_source,"China: Bama Yao Autonomous County, Guangxi Province",May-2024,Bamaxiang pig,Sanger,2c7bc8d79bc32a6c1726d7e59dd0fdcb,528,PQ561138.1,novel_4,0.0827,medium,novel_4:0.083; ST12:0.088; ST12:0.088; ST12:0.100; ST12:0.100
+Bamaxiang pig,isolation_source,"China: Bama Yao Autonomous County, Guangxi Province",May-2024,Bamaxiang pig,Sanger,2c7bc8d79bc32a6c1726d7e59dd0fdcb,528,PQ561126.1,novel_4,0.0827,medium,novel_4:0.083; ST12:0.088; ST12:0.088; ST12:0.100; ST12:0.100
+Bamaxiang pig,isolation_source,"China: Bama Yao Autonomous County, Guangxi Province",May-2024,Bamaxiang pig,Sanger,62d3f70ef6d650ea9f8226cf057f3e21,527,PQ561117.1,novel_4,0.068,medium,novel_4:0.068; novel_4:0.068; ST12:0.070; ST5:0.074; ST5:0.074
+Bamaxiang pig,isolation_source,"China: Bama Yao Autonomous County, Guangxi Province",May-2024,Bamaxiang pig,Sanger,bac98255215f1c043af74d67a78dd43c,525,PQ561107.1,novel_4,0.1143,medium,novel_4:0.114; ST12:0.116; ST12:0.118; ST12:0.130; ST12:0.130
+Bamaxiang pig,isolation_source,"China: Bama Yao Autonomous County, Guangxi Province",May-2024,Bamaxiang pig,Sanger,13ca257a3d97d56645e17fde970fcf16,526,PQ561070.1,novel_4,0.0233,high,novel_4:0.023; novel_4:0.023; ST12:0.023; ST5:0.029; ST5:0.029
+Bamaxiang pig,isolation_source,"China: Bama Yao Autonomous County, Guangxi Province",May-2024,Bamaxiang pig,Sanger,2cb21ad293ee142604ed0259385dce3b,524,PQ561069.1,novel_4,0.0332,high,novel_4:0.033; ST12:0.033; novel_4:0.033; ST5:0.035; ST5:0.035
+Bamaxiang pig,isolation_source,"China: Bama Yao Autonomous County, Guangxi Province",May-2024,Bamaxiang pig,Sanger,f2478235abb2acda3c5e5b61dfdec87d,526,PQ561068.1,novel_4,0.0097,high,novel_4:0.010; novel_4:0.010; ST12:0.023; ST5:0.027; ST5:0.027
+Bamaxiang pig,isolation_source,"China: Bama Yao Autonomous County, Guangxi Province",May-2024,Bamaxiang pig,Sanger,90f26e84f856bd3025f8f2a449076b9d,527,PQ561067.1,novel_4,0.0272,high,novel_4:0.027; novel_4:0.027; ST5:0.039; ST5:0.039; ST5:0.039
+Bamaxiang pig,isolation_source,"China: Bama Yao Autonomous County, Guangxi Province",May-2024,Bamaxiang pig,Sanger,7aa4494022eb053f72b458d33a16fe9d,525,PQ561065.1,novel_4,0.0291,high,novel_4:0.029; novel_4:0.029; ST12:0.033; ST5:0.037; ST5:0.037
+Homo sapiens,host_qualifier,Spain,2018,feces,Sanger,85f8733a362d63746f5e4ff9daf558ba,214,OP495331.1,novel_5,0.0099,high,novel_5:0.010; novel_5:0.010; ST4:0.010; ST4:0.010; ST4:0.010
+Homo sapiens,host_qualifier,Spain,2018,feces,Sanger,cb1a3f75b4eb00c18159a68f797bfbb8,358,OP495322.1,novel_5,0.0,high,novel_5:0.000; ST4:0.000; novel_5:0.000; ST4:0.000; novel_5:0.000
+Homo sapiens,host_qualifier,Spain,2018,feces,Sanger,733dc6e84409ee414c012fadf175bb21,460,OP495306.1,novel_8,0.0,high,novel_8:0.000; ST3:0.000; ST3:0.000; ST3:0.000; ST3:0.000
+Homo sapiens,host_qualifier,Spain,2018,feces,Sanger,e985dc7d570beab1c939e0e3f95045e2,476,OP495303.1,novel_8,0.0,high,novel_8:0.000; ST3:0.000; ST3:0.000; ST3:0.000; ST3:0.000
+Homo sapiens,host_qualifier,Spain,2018,feces,Sanger,20b821533d89dcb5789179786f397ef2,459,OP495298.1,novel_8,0.0,high,novel_8:0.000; ST3:0.000; ST3:0.000; ST3:0.000; ST3:0.000
+Homo sapiens,host_qualifier,Spain,2018,feces,Sanger,d5762bc9d0cf22a0cebfb988d25126fc,402,OP495280.1,novel_8,0.0,high,novel_8:0.000; ST3:0.000; ST3:0.000; ST3:0.000; ST3:0.000
+Homo sapiens,host_qualifier,Unknown,Unknown,fecal sample,Sanger,dc98c18836de71af6a5029620c335e6b,439,PQ114651.1,novel_8,0.0023,high,novel_8:0.002; ST3:0.002; ST3:0.002; ST3:0.002; ST3:0.002
+Tiliqua scincoides,host_qualifier,Portugal,2023,Unknown,Sanger,dea5916e29189036158d228ca49c2325,597,OR989906.2,novel_3,0.0187,high,novel_3:0.019; novel_3:0.019; novel_3:0.019; novel_3:0.019; novel_3:0.019
+Stigmochelys pardalis (Leopard tortoise),host_qualifier,Thailand,20-Dec-2022,stool,Sanger,385da79d52518276fc4d5d5974993d00,491,PP506598.1,novel_3,0.0,high,novel_3:0.000; novel_3:0.000; novel_3:0.000; novel_3:0.000; novel_3:0.000
+Rattus norvegicus,host_qualifier,China,Unknown,Intestinal contents,Sanger,c805934e470887c9d16815e1cd9a3d32,437,PP504214.1,novel_5,0.066,medium,novel_5:0.066; ST4:0.066; ST4:0.066; ST4:0.066; ST4:0.066
+Castor fiber,host_qualifier,Slovakia: Zazriva,Unknown,feces,Sanger,4c9cae0f4328db7170a6d11513beea4c,658,PP094780.1,novel_10,0.028,high,novel_10:0.028; novel_10:0.078; ST26:0.408; ST26:0.408; ST26:0.408
+Homo sapiens,host_qualifier,China,15-Oct-2022,feces,Sanger,b1188c7588282e2d42fdceaeb03ab138,465,OR936686.1,novel_9,0.0879,medium,novel_9:0.088; ST7:0.092; ST7:0.101; ST7:0.103; ST7:0.103
+Iguana,host_qualifier,Malaysia,22-Jan-2022,Unknown,Sanger,f9015dd21dc3b852a272759c04f7534b,581,OR690719.1,novel_2,0.0315,high,novel_2:0.032; novel_2:0.032; novel_2:0.032; novel_2:0.032; ST36:0.373
+iguana,host_qualifier,Malaysia,Unknown,Unknown,Sanger,6ae610381ba82eefdca7874953b5f70d,486,OR545501.1,novel_3,0.0,high,novel_3:0.000; novel_3:0.000; novel_3:0.000; novel_3:0.000; novel_3:0.000
+Hen,host_qualifier,Iran,2022,Unknown,Sanger,8b3d5054171d39c6640c4c262bfbbb5d,231,OR619612.1,novel_17,0.0721,medium,novel_17:0.072; novel_17:0.087; ST7:0.288; ST7:0.298; ST7:0.298
+Rhinella marina,host_qualifier,Philippines,Unknown,Unknown,Sanger,b38effad5b234ae4d94b7bf29fd0e504,594,OR458327.1,novel_2,0.0876,medium,novel_2:0.088; novel_2:0.088; novel_2:0.088; novel_2:0.089; ST36:0.411
+Rhinella marina,host_qualifier,Philippines,Unknown,Unknown,Sanger,709908cde0eb3cbef95b7d21473efde1,593,OR458325.1,novel_2,0.0687,medium,novel_2:0.069; novel_2:0.069; novel_2:0.069; novel_2:0.079; ST36:0.390
+Rhinella marina,host_qualifier,Philippines,Unknown,Unknown,Sanger,50b4b74318135e1e44ab8df5a09dc058,594,OR458324.1,novel_2,0.0154,high,novel_2:0.015; novel_2:0.015; novel_2:0.015; novel_2:0.027; ST36:0.349
+Rhinella marina,host_qualifier,Philippines,Unknown,Unknown,Sanger,a04bc8223fab116f2c079f644bd2a066,595,OR458322.1,novel_2,0.0291,high,novel_2:0.029; novel_2:0.029; novel_2:0.029; novel_2:0.043; ST36:0.362
+Rhinella marina,host_qualifier,Philippines,Unknown,Unknown,Sanger,d673b24d2ce6f747f6c778fd35a9ba1f,596,OR458321.1,novel_2,0.0154,high,novel_2:0.015; novel_2:0.015; novel_2:0.015; novel_2:0.031; ST36:0.348
+Rhinella marina,host_qualifier,Philippines,Unknown,Unknown,Sanger,568806aa9cae6072d36ac92d4afc5b5f,594,OR458320.1,novel_2,0.0154,high,novel_2:0.015; novel_2:0.015; novel_2:0.015; novel_2:0.029; ST36:0.349
+Rhinella marina,host_qualifier,Philippines,Unknown,Unknown,Sanger,5cb1041a87adef134dcb012445f9955e,596,OR458319.1,novel_2,0.0802,medium,novel_2:0.080; novel_2:0.080; novel_2:0.080; novel_2:0.094; ST36:0.386
+Rhinella marina,host_qualifier,Philippines,Unknown,Unknown,Sanger,fcd8afc52de741a858c8dd911f1cce09,597,OR458318.1,novel_2,0.0544,medium,novel_2:0.054; novel_2:0.054; novel_2:0.054; novel_2:0.058; ST35:0.384
+Unknown,unknown,Unknown,Unknown,Unknown,Sanger,be491b3bae4b0ad73e30ac6d0cf94532,533,OR264270.1,novel_2,0.208,low,novel_2:0.208; novel_2:0.208; novel_2:0.208; novel_2:0.208; ST25:0.363
+Homo sapiens,host_qualifier,China,Unknown,fecal sample,Sanger,6aa30984528103ffacbd444874b2344b,429,OR243716.1,novel_9,0.019,high,novel_9:0.019; ST7:0.019; ST7:0.031; ST7:0.031; ST7:0.033
+Homo sapiens,host_qualifier,China,Unknown,fecal sample,Sanger,21da32b675221f50f64ceb1a27da1fe1,443,OR243714.1,novel_9,0.0392,high,novel_9:0.039; ST7:0.039; ST7:0.051; ST7:0.051; ST7:0.053
+Homo sapiens,host_qualifier,Kosovo,Feb-2021,stool sample,Sanger,1da285ed8f04d4651427c4f7c98e8e8c,549,OR062554.1,novel_17,0.0369,high,novel_17:0.037; novel_17:0.048; ST7:0.185; ST7:0.185; ST7:0.186
+whooper swan,host_qualifier,China,Unknown,feces,Sanger,25fa83fcc9e3f36798b91a5e008f5ec0,507,ON394483.1,novel_17,0.1242,medium,novel_17:0.124; novel_17:0.128; ST7:0.321; ST7:0.321; ST7:0.321
+Unknown,unknown,Unknown,Unknown,Unknown,Sanger,f880670479a23ae1098d4c2603627114,384,OM688971.1,novel_5,0.1716,low,novel_5:0.172; novel_5:0.172; novel_5:0.172; novel_5:0.172; ST4:0.172
+Unknown,unknown,Unknown,Unknown,Unknown,Sanger,066d1b2b6a691d4c9c3ff143fa52cb07,316,OM688967.1,novel_5,0.0,high,novel_5:0.000; novel_5:0.000; ST4:0.000; ST4:0.000; ST4:0.000
+Unknown,unknown,Unknown,Unknown,Unknown,Sanger,d9b7a1a389353610da99e16f7ca6d39c,384,OM688966.1,novel_5,0.0296,high,novel_5:0.030; ST4:0.030; ST4:0.030; ST4:0.030; ST4:0.030
+Unknown,unknown,Unknown,Unknown,Unknown,Sanger,cccf076362315b9473d8bce11f91b173,318,OM688959.1,novel_5,0.0,high,novel_5:0.000; novel_5:0.000; ST4:0.000; ST4:0.000; ST4:0.000
+Unknown,unknown,Unknown,Unknown,Unknown,Sanger,011db27cbeb31f3eb3e55fca909f776a,324,OM688954.1,novel_5,0.074,medium,novel_5:0.074; novel_5:0.074; novel_5:0.074; novel_5:0.074; ST4:0.074
+Unknown,unknown,Unknown,Unknown,Unknown,Sanger,8d3f2f6d9962ace62091073041c70b02,384,OM688952.1,novel_5,0.0622,medium,novel_5:0.062; novel_5:0.062; ST4:0.062; novel_5:0.062; ST4:0.062
+Unknown,unknown,Unknown,Unknown,Unknown,Sanger,3e53f1a11c16e82fdef8a1288a5f13ff,321,OM688944.1,novel_5,0.0,high,novel_5:0.000; novel_5:0.000; ST4:0.000; ST4:0.000; ST4:0.000
+Heosemys grandis,host_qualifier,Poland,Unknown,feces,Sanger,7efd96145f111856c28fa57c0b582930,577,MW682216.1,novel_2,0.2051,low,novel_2:0.205; novel_2:0.205; novel_2:0.205; novel_2:0.205; ST36:0.383
+Astrochelys radiata,host_qualifier,Poland,Unknown,feces,Sanger,09e8fa484f7ae73938dc8d4bd05ac5d0,584,MW682215.1,novel_3,0.2801,low,novel_3:0.280; novel_3:0.280; novel_3:0.282; novel_3:0.284; novel_3:0.284
+Testudo graeca,host_qualifier,Poland,Unknown,feces,Sanger,09e8fa484f7ae73938dc8d4bd05ac5d0,584,MW682214.1,novel_3,0.2801,low,novel_3:0.280; novel_3:0.280; novel_3:0.282; novel_3:0.284; novel_3:0.284
+Stigmochelys pardalis,host_qualifier,Poland,Unknown,feces,Sanger,558f448ff580508fae26b0b104b26110,583,MW682210.1,novel_3,0.2872,low,novel_3:0.287; novel_3:0.287; novel_3:0.289; novel_3:0.291; novel_3:0.291
+Homo sapiens,host_qualifier,"Mexico: Campeche, Hecelchakan, Dzotchen",21-Jun-2019,feces,Sanger,c3031d7e02cc0cc3642f41f901192d17,442,MZ291686.1,novel_8,0.0184,high,novel_8:0.018; ST3:0.018; ST3:0.018; ST3:0.018; ST3:0.018
+Homo sapiens,host_qualifier,Turkey,Unknown,feces,Illumina,1ff3c4cbed1b6f439bf7e98c8d00f0d6,480,MW728079.1,novel_11,0.0212,high,novel_11:0.021; ST1:0.021; ST1:0.034; ST1:0.036; ST1:0.049
+Anser anser,host_qualifier,Poland,Unknown,Unknown,Sanger,f0536ad036fa7ca3f1a17d2580294586,290,MZ956599.1,novel_17,0.0,high,novel_17:0.000; novel_17:0.000; ST7:0.138; ST7:0.138; ST7:0.138
+Anas platyrhynchos,host_qualifier,Philippines,Unknown,Unknown,Sanger,f1a2e657c65fd21185688f7a3ce6f447,527,KP233739.1,novel_2,0.0154,high,novel_2:0.015; novel_2:0.015; novel_2:0.015; novel_2:0.015; ST36:0.351
+Homo sapiens,host_qualifier,China,Unknown,feces,Sanger,38b894d3b4ef7f2f4ce37ee9bf460688,562,MW798741.1,novel_9,0.0,high,novel_9:0.000; ST7:0.000; ST7:0.000; ST7:0.000; ST7:0.000
+Gallus gallus,host_qualifier,Brazil,Unknown,feces,Sanger,e4d6e89f3da9f45568a58864dd2ebac1,502,MW538468.1,novel_17,0.0869,medium,novel_17:0.087; novel_17:0.127; ST7:0.317; ST7:0.317; ST7:0.317
+Gallus gallus,host_qualifier,Brazil,Unknown,feces,Sanger,fc354c357e392eedce49b07aa1eae2ab,500,MW538467.1,novel_17,0.0855,medium,novel_17:0.086; novel_17:0.126; ST7:0.314; ST7:0.314; ST7:0.314
+Gallus gallus,host_qualifier,Brazil,Unknown,feces,Sanger,c894a7c84807444f02785fc0f1e799ad,505,MW538452.1,novel_17,0.0924,medium,novel_17:0.092; novel_17:0.129; ST7:0.319; ST7:0.319; ST7:0.319
+Gallus gallus,host_qualifier,Brazil,Unknown,feces,Sanger,7b4b71c6afb268df1694e325792267db,505,MW538445.1,novel_17,0.1174,medium,novel_17:0.117; novel_17:0.146; ST7:0.314; ST7:0.314; ST7:0.314
+Gallus gallus,host_qualifier,Brazil,Unknown,feces,Sanger,e0f7a1afe0363bf8e28d30578c9f4564,505,MW538432.1,novel_17,0.1012,medium,novel_17:0.101; novel_17:0.144; ST7:0.314; ST7:0.314; ST7:0.314
+Gallus gallus,host_qualifier,Brazil,Unknown,feces,Sanger,9d82530f29678033d0bc01cdc29eb75e,499,MW538380.1,novel_17,0.0468,high,novel_17:0.047; novel_17:0.138; ST7:0.314; ST7:0.314; ST7:0.314
+Gallus gallus,host_qualifier,Brazil,Unknown,feces,Sanger,caa086a5531db58142c930fa5144e439,508,MW538369.1,novel_17,0.1145,medium,novel_17:0.114; novel_17:0.133; ST7:0.299; ST7:0.299; ST7:0.299
+Unknown,unknown,Colombia,Unknown,feces,Illumina,1ff3c4cbed1b6f439bf7e98c8d00f0d6,480,MW662501.1,novel_11,0.0212,high,novel_11:0.021; ST1:0.021; ST1:0.034; ST1:0.036; ST1:0.049
+Canis lupus familiaris,host_qualifier,Poland,2017,feces,Sanger,e6152aed007a29df38cbff33858ac72a,572,MW346669.1,novel_17,0.0035,high,novel_17:0.004; novel_17:0.011; ST7:0.147; ST7:0.149; ST7:0.149
+Homo sapiens,host_qualifier,Poland,2017,feces,Sanger,e6152aed007a29df38cbff33858ac72a,572,MW346668.1,novel_17,0.0035,high,novel_17:0.004; novel_17:0.011; ST7:0.147; ST7:0.149; ST7:0.149
+Gallus gallus,host_qualifier,Algeria,Unknown,stool,Sanger,1f4f5fb8953587c01c5b85262574cfd6,340,MW295500.1,novel_17,0.018,high,novel_17:0.018; novel_17:0.030; ST7:0.246; ST7:0.252; ST7:0.255
+Anser anser,host_qualifier,Czech Republic: Vsechlapy,Unknown,Unknown,Sanger,cf9961846a43f02b345b96aefaeb998c,615,MT042824.1,novel_17,0.0345,high,novel_17:0.035; novel_17:0.041; ST7:0.150; ST7:0.153; ST7:0.153
+Homo sapiens,host_qualifier,Czech Republic,Unknown,Dolni Brezany,Sanger,8c839568c0a4c0461445ea350e1d8ea7,586,MT039588.1,novel_17,0.0155,high,novel_17:0.016; novel_17:0.024; ST7:0.157; ST7:0.159; ST7:0.159
+Homo sapiens,host_qualifier,Czech Republic,Unknown,Dolni Brezany,Sanger,d38cd2e51bf1d266b2e2e60891390e28,586,MT039587.1,novel_17,0.0604,medium,novel_17:0.060; novel_17:0.067; ST7:0.164; ST7:0.166; ST7:0.168
+Homo sapiens,host_qualifier,Czech Republic,Unknown,Doubravice,Sanger,47537c14d133b7bf4a76d8b073e1fd1b,625,MT039561.1,novel_17,0.1272,medium,novel_17:0.127; novel_17:0.134; ST7:0.227; ST7:0.228; ST7:0.228
+Canis lupus familiaris,host_qualifier,Czech Republic,Unknown,Doubravice,Sanger,8a5b4c2421b9615025b36207abe3e627,627,MT039560.1,novel_17,0.1183,medium,novel_17:0.118; novel_17:0.126; ST7:0.217; ST7:0.219; ST7:0.220
+Canis lupus familiaris,host_qualifier,Czech Republic,Unknown,Liberec,Sanger,f1199ffc8bb98653f67fc3252ce77911,554,MT039558.1,novel_17,0.0293,high,novel_17:0.029; novel_17:0.040; ST7:0.181; ST7:0.183; ST7:0.183
+Homo sapiens,host_qualifier,South Korea,Unknown,Human stool,Sanger,73fd4a1da634fff6220ed9be570ca6f1,438,MT186228.1,novel_8,0.0,high,novel_8:0.000; ST3:0.000; ST3:0.000; ST3:0.000; ST3:0.000
+Anser cygnoides,host_qualifier,Brazil,Unknown,feces,Illumina,b83c0882d0e693384667827cbec960c4,505,MN472821.1,novel_17,0.0926,medium,novel_17:0.093; novel_17:0.135; ST7:0.308; ST7:0.308; ST7:0.308
+Anser cygnoides,host_qualifier,Brazil,Unknown,feces,Illumina,e4d6e89f3da9f45568a58864dd2ebac1,502,MN472814.1,novel_17,0.0869,medium,novel_17:0.087; novel_17:0.127; ST7:0.317; ST7:0.317; ST7:0.317
+Anser cygnoides,host_qualifier,Brazil,Unknown,feces,Illumina,824cc9544358e808e603f5a8f14f4201,499,MN472789.1,novel_17,0.0468,high,novel_17:0.047; novel_17:0.136; ST7:0.314; ST7:0.314; ST7:0.314
+Anser cygnoides,host_qualifier,Brazil,Unknown,feces,Illumina,7b4b71c6afb268df1694e325792267db,505,MN472779.1,novel_17,0.1174,medium,novel_17:0.117; novel_17:0.146; ST7:0.314; ST7:0.314; ST7:0.314
+Vulpes vulpes,host_qualifier,Spain,Unknown,feces,Illumina,8c81b593cb2128408a814a345526ab45,480,MK587499.1,novel_11,0.0552,medium,novel_11:0.055; ST1:0.055; ST1:0.068; ST1:0.070; ST1:0.083
+Centrochelys sulcata (African spurred tortoise),host_qualifier,Unknown,Unknown,Unknown,Sanger,f0f5f71adee2620f576a1bbedcac5b20,550,MH807199.1,novel_3,0.0,high,novel_3:0.000; novel_3:0.000; novel_3:0.000; novel_3:0.000; novel_3:0.000
+Testudo graeca (Syrian tortoise),host_qualifier,Unknown,Unknown,Unknown,Sanger,483bff6c0e36ab91d4ab4f529e42f5af,602,MH807198.1,novel_3,0.0136,high,novel_3:0.014; novel_3:0.014; novel_3:0.014; novel_3:0.014; novel_3:0.014
+Centrochelys sulcata (African spurred tortoise),host_qualifier,Unknown,Unknown,Unknown,Sanger,7175f125083d4ef5290c03b55776a97e,372,MH807197.1,novel_3,0.0,high,novel_3:0.000; novel_3:0.000; novel_3:0.000; novel_3:0.000; novel_3:0.000
+Centrochelys sulcata (African spurred tortoise),host_qualifier,Unknown,Unknown,Unknown,Sanger,94f2f1678543511a62b2fe97f934c49c,591,MH807195.1,novel_3,0.0018,high,novel_3:0.002; novel_3:0.002; novel_3:0.002; novel_3:0.002; novel_3:0.002
+Centrochelys sulcata (African spurred tortoise),host_qualifier,Unknown,Unknown,Unknown,Sanger,b6010ca94f56ed2ecf2a98cb49b0e53b,602,MH807192.1,novel_3,0.2695,low,novel_3:0.269; novel_3:0.269; novel_3:0.271; novel_3:0.273; novel_3:0.273
+Unknown,unknown,Unknown,Unknown,Unknown,Sanger,1f4f5fb8953587c01c5b85262574cfd6,340,MK170186.1,novel_17,0.018,high,novel_17:0.018; novel_17:0.030; ST7:0.246; ST7:0.252; ST7:0.255
+Unknown,unknown,Unknown,Unknown,Unknown,Sanger,76a0636afb9776b8058436fd4a7f1c62,546,MG987042.1,novel_17,0.0853,medium,novel_17:0.085; novel_17:0.093; ST7:0.139; ST7:0.141; ST7:0.145
+Homo sapiens,host_qualifier,Iran,Unknown,Feces,Sanger,6a10aeb28f382edf971393698c3368b9,489,MH221016.1,novel_15,0.056,medium,novel_15:0.056; ST3:0.056; ST3:0.056; ST3:0.056; ST3:0.056
+Homo sapiens,host_qualifier,Iran,Unknown,Feces,Sanger,88c723df54786121d5b282ce0b4e42f2,423,MH221014.1,novel_15,0.0144,high,novel_15:0.014; ST3:0.014; ST3:0.014; ST3:0.014; ST3:0.014
+Bos taurus,host_qualifier,USA,Unknown,feces,Sanger,ba85150951696bcd48a211dcb0f5275c,475,MH634436.1,novel_8,0.0,high,novel_8:0.000; ST3:0.000; ST3:0.000; ST3:0.000; ST3:0.000
+Philippine_macaque,host_qualifier,Philippines,Unknown,Unknown,Sanger,50dcb036db57d6c6f070c3b4bef1191e,591,MF737391.1,novel_2,0.0448,high,novel_2:0.045; novel_2:0.045; novel_2:0.045; novel_2:0.052; ST36:0.365
+Unknown,unknown,Unknown,Unknown,Unknown,Sanger,9dcea26a00e47c5037ecbf6117e6244d,372,MG280746.1,novel_5,0.0,high,novel_5:0.000; ST4:0.000; novel_5:0.000; ST4:0.000; ST4:0.000
+Unknown,unknown,Unknown,Unknown,Unknown,Sanger,9dcea26a00e47c5037ecbf6117e6244d,372,MG280745.1,novel_5,0.0,high,novel_5:0.000; ST4:0.000; novel_5:0.000; ST4:0.000; ST4:0.000
+Homo sapiens,host_qualifier,Unknown,Unknown,Unknown,Sanger,b18cab5ad149a5a479e5ae9f9d69d81f,552,MH349754.1,novel_17,0.0,high,novel_17:0.000; novel_17:0.011; ST7:0.152; ST7:0.154; ST7:0.154
+Homo sapiens,host_qualifier,Poland,2017,feces,Sanger,d794bf578bd9d1cf923db54ce25fafba,548,MG720856.1,novel_17,0.0037,high,novel_17:0.004; novel_17:0.011; ST7:0.153; ST7:0.155; ST7:0.155
+Cuora mouhotii,host_qualifier,Poland,Unknown,Unknown,Sanger,e2b914dcd39984cb530d276dd3bca6a2,576,KU146575.1,novel_2,0.0,high,novel_2:0.000; novel_2:0.000; novel_2:0.000; novel_2:0.000; ST36:0.345
+Homo sapiens,host_qualifier,Thailand: Nakhon phanom,Unknown,Unknown,Unknown,0fb0d6a8c2728757d4f4c7eb8b482e23,371,KM116067.1,novel_8,0.0,high,novel_8:0.000; ST3:0.000; ST3:0.000; ST3:0.000; ST3:0.000
+Homo sapiens,host_qualifier,Mexico: Michocan,Unknown,Unknown,Sanger,0b79b04827fb48554f01c88ff785ff45,480,KM213467.1,novel_8,0.0426,high,novel_8:0.043; ST3:0.043; ST3:0.043; ST3:0.043; ST3:0.043
+Unknown,unknown,Unknown,Unknown,Unknown,Sanger,da609fb97d6dde6c40153f184eb5010a,490,KF242082.1,novel_5,0.0126,high,novel_5:0.013; novel_5:0.013; ST4:0.013; ST4:0.013; ST4:0.013
+Unknown,unknown,Unknown,Unknown,Unknown,Sanger,29e302351d7ed77f082e2860466334c6,366,KF242081.1,novel_13,0.0,high,novel_13:0.000; novel_13:0.000; ST3:0.000; ST3:0.000; ST3:0.000
+Unknown,unknown,Unknown,Unknown,Unknown,Sanger,802a574252028e1e644993b674b9041c,365,KF242080.1,novel_13,0.0,high,novel_13:0.000; novel_13:0.000; ST3:0.000; ST3:0.000; ST3:0.000
+Unknown,unknown,Netherlands,Unknown,Unknown,Unknown,d496f36a7c488a415fa527319fdad922,310,JN880472.1,novel_5,0.0,high,novel_5:0.000; ST4:0.000; ST4:0.000; ST4:0.000; ST4:0.000
+Unknown,unknown,Netherlands,Unknown,Unknown,Unknown,d496f36a7c488a415fa527319fdad922,310,JN880471.1,novel_5,0.0,high,novel_5:0.000; ST4:0.000; ST4:0.000; ST4:0.000; ST4:0.000
+box turtle,host_qualifier,Unknown,Unknown,Unknown,Unknown,2e7c5af200bdfd66a1afdb87dcd0b14d,516,JF750335.1,novel_2,0.0947,medium,novel_2:0.095; novel_2:0.095; novel_2:0.095; novel_2:0.095; ST24:0.312
+Homo sapiens,host_qualifier,Turkey,Unknown,host faeces,Unknown,3758a5980c39a6f9f2e8f76faeafe94a,494,AM779021.1,novel_8,0.0,high,novel_8:0.000; ST3:0.000; ST3:0.000; ST3:0.000; ST3:0.000
+Homo sapiens,host_qualifier,Denmark,Unknown,faeces,Unknown,bb0e7a1208e0c0c807e0db66811cb3c0,512,AM712470.1,novel_8,0.0,high,novel_8:0.000; ST3:0.000; ST3:0.000; ST3:0.000; ST3:0.000

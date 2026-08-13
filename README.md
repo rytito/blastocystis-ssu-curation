@@ -112,12 +112,39 @@ Between the May and August 2026 runs, 10 new records entered the curated set,
 including the first direct ST42 record (Bos taurus, Portugal) and a new
 2-record novel cluster from Eurasian beaver (*Castor fiber*, Czechia).
 
+## Companion analysis: barcode-region mapping
+
+`map_short_reads.py` handles the ~16,000 records the main pipeline excludes
+for length — the ~600 bp Scicluna barcode region that dominates surveillance
+sequencing. It re-issues the same broad query, keeps the 100–999 bp records,
+and assigns each to the curated reference labels (STs **and** the provisional
+novel clusters) by 8-mer k-mer containment (1 − |Q∩R|/|Q|, both strands,
+top-5 consensus — containment rather than Jaccard because a barcode fragment
+shares at most a third of the k-mer union of a full-length reference even on
+a perfect match).
+
+```bash
+python map_short_reads.py --email you@example.com \
+    --refs ./rRNA_pipeline/fasta --output-dir ./short_read_mapping
+```
+
+Run of 2026-08-13 ([`results/short_read_mapping_20260813/`](results/short_read_mapping_20260813/)):
+16,784 barcode records, **92.8 % subtype-called** (12,010 high-confidence);
+ST3/ST1/ST2 dominate as expected. Notably, **121 barcode records from
+independent studies map into 11 of the 18 provisional novel clusters** —
+including 7 high-confidence tortoise-lineage hits (four exact-match) from
+accession series disjoint from the cluster's full-length references, and an
+independent *Castor fiber* (Slovakia) hit on the beaver cluster first seen
+in the August full-length run.
+
 ## What it is not
 
 - Not a replacement for expert curation — a confidently wrong submitter tag
   still passes stage-I validation.
-- Not a barcode-region tool — ~16,000 Scicluna-region records are excluded
-  by design.
+- The curated set itself excludes ~16,000 Scicluna-region barcode records by
+  design — they lack the variable regions needed to define novel STs. They
+  are covered separately by `map_short_reads.py` (above), which calls them
+  against the curated references instead.
 - `novel_N` labels are clustering labels, not subtype proposals.
 - The 8-mer Jaccard placement is calibrated, not optimal — plug in EPA-ng or
   pplacer for formal phylogenetic placement.
