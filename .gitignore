@@ -1,0 +1,11 @@
+# Pipeline output directories
+rRNA_pipeline*/
+*.output
+
+# Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
