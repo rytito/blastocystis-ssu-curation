@@ -1,0 +1,6 @@
+subtype,colorectal_cancer,healthy_control,ibd,ibs,immunocompromised,symptomatic_unspec
+ST1,1,4,2,2,0,15
+ST2,0,1,1,0,3,11
+ST3,2,4,4,3,0,68
+ST4,0,0,0,0,0,12
+ST7,0,0,0,0,0,2
