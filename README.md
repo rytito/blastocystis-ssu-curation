@@ -144,10 +144,6 @@ in the August full-length run.
 - The 8-mer Jaccard placement is calibrated, not optimal — plug in EPA-ng or
   pplacer for formal phylogenetic placement.
 
-## Contributing
-
-Curation cases, novel-cluster validations, and candidate accessions for the
-reference table are very welcome — please open an issue.
 
 ## License
 
