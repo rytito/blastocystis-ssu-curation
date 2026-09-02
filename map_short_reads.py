@@ -27,6 +27,18 @@ Confidence tiers (containment distance to nearest reference):
 A "low" call additionally requires the top-5 nearest references to agree on
 the label; disagreement is reported as ambiguous.
 
+Separation check (--margin, default 0.01). The tiers above measure how CLOSE
+a fragment sits to its nearest reference, not whether that reference is
+distinguishable from the runner-up. A ~600 bp window cannot separate subtypes
+whose full-length divergence is near the 2% designation threshold, so a
+fragment can sit within the "high" band of two different subtypes at once.
+Every call is therefore also required to beat the nearest reference carrying a
+DIFFERENT label by more than --margin. Calls that fail are either collapsed to
+an agreed complex label (see COMPLEXES) or, where no complex is defined,
+downgraded to ambiguous. Motivating case: ST10 was split into ST42-44 on a 2%
+full-length threshold, and ST43/ST44 sit 1.8-2.2% from ST10 — under the
+barcode's resolution.
+
 Usage (after a main-pipeline run has produced the reference FASTAs):
   python map_short_reads.py --email you@example.com \\
       --refs ./rRNA_pipeline_20260813/fasta \\
@@ -84,7 +96,36 @@ def parse_args():
     p.add_argument("--thresh-high", type=float, default=0.05)
     p.add_argument("--thresh-medium", type=float, default=0.15)
     p.add_argument("--thresh-low", type=float, default=0.30)
+    p.add_argument("--margin", type=float, default=0.01,
+                   help="a call must beat the nearest differently-labelled "
+                        "reference by more than this containment distance; "
+                        "otherwise it is collapsed to a complex label or "
+                        "marked ambiguous (0 disables the check)")
     return p.parse_args()
+
+
+# Groups whose members a ~600 bp window cannot reliably separate. When a call
+# fails the margin check against a sibling, it is reported as the group label
+# rather than a false-precision subtype call.
+COMPLEXES = {
+    "ST10-complex": {"ST10", "ST42", "ST43", "ST44"},
+}
+
+
+def resolve_call(top5, best_label, conf, margin):
+    """Apply the separation check. Returns (label, confidence, note)."""
+    if margin <= 0 or conf in ("unmapped", "ambiguous"):
+        return best_label, conf, ""
+    rival = next(((l, d) for l, d in top5 if l != best_label), None)
+    if rival is None:
+        return best_label, conf, "no rival in top-5"
+    gap = rival[1] - top5[0][1]
+    if gap > margin:
+        return best_label, conf, ""
+    for name, members in COMPLEXES.items():
+        if best_label in members and rival[0] in members:
+            return name, conf, f"collapsed: {best_label} vs {rival[0]} gap {gap:.3f}"
+    return best_label, "ambiguous", f"unresolved: {best_label} vs {rival[0]} gap {gap:.3f}"
 
 
 def kmer_bitrow(seq: str) -> np.ndarray:
@@ -236,9 +277,11 @@ def main():
             conf = "low" if vote == best_label else "ambiguous"
         else:
             conf, best_label = "unmapped", "unmapped"
+        best_label, conf, note = resolve_call(top5, best_label, conf, args.margin)
         results.append({
             "accession": acc, "assigned": best_label,
             "containment_dist": round(d, 4), "confidence": conf,
+            "separation_note": note,
             "top5": "; ".join(f"{l}:{dd:.3f}" for l, dd in top5),
         })
 

@@ -1,0 +1,49 @@
+subtype,status,reported_in_humans,registry_note,n_sequences,mean_intra,median_intra,max_intra,n_variant_clusters,n_novel_candidates,confidence_breakdown,top_hosts,sequencing_technologies
+ST1,accepted,True,Most prevalent globally; IBS association,222,0.02042,0.02138,0.09012,44,0,high:131; medium:49; low:29; Unknown:13,Homo sapiens:107; long-tailed macaque:39; Unknown:17,Sanger:136; Unknown:64; Ion Torrent:15; PacBio:6; ONT:1
+ST2,accepted,True,Common in humans; urticaria association,87,0.02674,0.01743,0.17929,15,15,high:54; medium:19; low:9; Unknown:5,Homo sapiens:42; long-tailed macaque:13; Macaca thibetana:11,Sanger:55; Unknown:28; Ion Torrent:2; ONT:1; PacBio:1
+ST3,accepted,True,Most prevalent globally; IBS-D association,160,0.02811,0.0289,0.1747,30,1,high:89; medium:37; low:26; Unknown:8,Homo sapiens:84; Macaca thibetana:20; Unknown:20,Sanger:119; Unknown:20; PacBio:11; Ion Torrent:10
+ST4,accepted,True,Europe-dominant; possible immunoprotective role,36,0.00872,0.00954,0.02032,3,0,high:28; Unknown:3; low:3; medium:2,Homo sapiens:8; Rattus exulans:6; Ruttus novercious:4,Sanger:20; Unknown:14; ONT:2
+ST5,accepted,True,Predominantly pigs; zoonotic in humans,42,0.00442,0.0029,0.0306,2,1,Unknown:32; high:8; low:1; medium:1,Sus scrofa domesticus:32; Sus scrofa:6; Tibetan Pig:1,Ion Torrent:31; Unknown:10; Sanger:1
+ST6,accepted,True,Primarily birds/poultry,18,0.01185,0.00653,0.0353,3,2,high:12; medium:4; low:2,Homo sapiens:9; Gallus gallus:4; Saltator similis:1,Unknown:11; Sanger:6; PacBio:1
+ST7,accepted,True,Primarily birds/poultry,45,0.02502,0.01499,0.06515,10,9,high:35; medium:10,Unknown:18; Homo sapiens:12; Gallus gallus:8,Sanger:26; Unknown:19
+ST8,accepted,True,Non-human primates; rare in humans,10,0.00576,0.00509,0.01287,2,0,high:4; low:4; Unknown:1; medium:1,Canis lupus familiaris:3; Homo sapiens:2; Capra hircus:1,Unknown:5; Sanger:5
+ST9,accepted,True,Human-specific; rare,6,0.0089,0.00835,0.01602,2,0,medium:3; high:2; low:1,Homo sapiens:5; Gallus gallus:1,Sanger:4; Unknown:2
+ST10,accepted,True,Artiodactyls; rare human reports; now split ST42-44,39,0.02226,0.01877,0.07388,13,8,high:30; low:5; Unknown:3; medium:1,Bos taurus:10; Ovis aries:10; Capra hircus:4,Sanger:20; ONT:17; Illumina:2
+ST11,accepted,False,Non-human primates,74,0.01821,0.00287,0.12724,4,8,low:71; high:3,iguana:71; Elephant:2; elephant:1,Sanger:71; ONT:2; Unknown:1
+ST12,accepted,True,Non-human primates; occasional in humans,69,0.03444,0.0207,0.13057,41,15,low:62; high:7,Sus scrofa:55; Homo sapiens:4; giraffe:3,Sanger:23; Unknown:23; PacBio:23
+ST13,accepted,True,Rare; occasional human reports,7,0.15893,0.04156,0.32243,4,2,high:3; Unknown:2; low:2,Eastern grey kangaroo:2; Dugong dugon:2; Roe deer:1,Unknown:3; Sanger:3; ONT:1
+ST14,accepted,True,Cattle/artiodactyls; rare in humans,12,0.02096,0.02684,0.04348,5,4,high:12,Bos taurus:6; Ovis aries:4; Bos grunniens:1,Sanger:6; ONT:6
+ST15,accepted,False,Non-human primates,16,0.00483,0.00481,0.01081,1,0,Unknown:14; high:2,Sus scrofa domesticus:14; Hylobates lar:1; Camelus dromedarius:1,Ion Torrent:14; Sanger:2
+ST17,accepted,False,Rodents; cattle,7,0.08656,0.10841,0.12316,5,0,low:5; high:1; Unknown:1,cockroach:4; Ctenodactylus gundi:1; Homo sapiens:1,Unknown:5; Sanger:1; ONT:1
+ST21,accepted,False,Avian; accepted after full-length validation,12,0.01629,0.00344,0.06033,4,3,high:10; low:2,Ovis aries:4; Bos taurus:3; Unknown:2,ONT:8; Sanger:4
+ST23,accepted,True,"Reported in humans (Colombia, Thailand)",7,0.01565,0.00057,0.05439,2,1,high:7,Capra hircus:3; Ovis aries:2; Bos taurus:2,ONT:6; Sanger:1
+ST24,tentative,False,Cattle (USA),16,0.01161,0.01599,0.02074,3,0,high:15; Unknown:1,Ovis aries:9; Capra hircus:3; White-tailed deer:2,ONT:15; Sanger:1
+ST25,tentative,False,Cattle,9,0.01552,0.00908,0.05096,3,1,high:7; Unknown:2,Bos taurus:5; Ovis aries:1; Red deer:1,ONT:8; Unknown:1
+ST26,accepted,False,Cattle (USA); dominant in several US states,17,0.02111,0.02519,0.04915,8,6,high:10; low:5; medium:2,Bos taurus:8; Unknown:7; Ovis aries:1,Sanger:10; ONT:7
+ST30,tentative,False,Limited data,6,0.00094,0.00113,0.00169,1,0,high:3; Unknown:3,Odocoileus virginianus (white-tailed deer):3; Ovis aries:2; Capra hircus:1,ONT:3; Illumina:3
+ST33,tentative,False,Limited data,2,0.0,0.0,-0.0,1,0,high:2,Equus caballus:2,ONT:2
+ST34,tentative,False,Limited data,3,0.10842,0.10472,0.12417,3,0,low:2; high:1,Equus caballus:1; Kinixys belliana:1; Geochelone radiata:1,Unknown:2; ONT:1
+ST35,accepted,True,Human isolate 168; Nanopore full-length validated,6,0.11567,0.15125,0.16408,4,0,low:5; high:1,Morelia viridis:2; Homo sapiens:1; Boa constrictor:1,Sanger:3; Unknown:2; ONT:1
+ST39,tentative,False,Recently proposed,19,0.00875,0.00946,0.01712,2,0,high:19,Macaca thibetana:11; Macaca mulatta:8,Sanger:19
+ST42,accepted,False,ST10 split; Santin et al. 2024,7,0.00536,0.00625,0.00968,1,0,low:4; Unknown:2; high:1,Bos taurus:7,ONT:6; Sanger:1
+ST43,accepted,False,ST10 split; Santin et al. 2024,4,0.00028,0.00028,0.00057,1,0,high:4,Ovis aries:4,ONT:4
+ST44,accepted,False,ST10 split; Santin et al. 2024,5,0.00125,0.0017,0.00227,1,0,high:5,Ovis aries:3; Bos taurus:2,ONT:5
+ST46,unknown,False,,2,0.02677,0.02677,0.02677,2,0,Unknown:2,Eastern grey kangaroo:2,Unknown:2
+ST48,unknown,False,,2,0.09245,0.09245,0.09245,2,0,high:1; low:1,Pan troglodytes:1; Geochelone pardalis:1,ONT:1; Unknown:1
+novel_1,unknown,False,,4,0.00066,0.00057,0.00115,1,0,Unknown:3; novel_cluster:1,Unknown:2; Carettochelys insculpta:1; python:1,Sanger:3; Unknown:1
+novel_2,unknown,False,,7,0.00552,0.00236,0.01503,2,0,novel_cluster:7,Geochelone elegans:2; Testudo graeca:1; Stigmochelys pardalis:1,Sanger:6; Unknown:1
+novel_3,unknown,False,,5,0.01635,0.01837,0.02666,4,0,novel_cluster:5,Sus scrofa:5,Sanger:4; Unknown:1
+novel_4,unknown,False,,5,0.00318,0.0,0.00802,2,0,novel_cluster:5,Homo sapiens:5,Unknown:4; Sanger:1
+novel_5,unknown,False,,2,0.00115,0.00115,0.00115,1,0,novel_cluster:2,Macropus rufus (red kangaroo):2,Unknown:2
+novel_6,unknown,False,,2,0.00761,0.00761,0.00761,1,0,novel_cluster:2,Homo sapiens:2,Sanger:2
+novel_7,unknown,False,,3,0.00821,0.00838,0.00861,1,0,novel_cluster:3,Unknown:1; Felis catus domesticus:1; Rattus norvegicus:1,Sanger:3
+novel_8,unknown,False,,3,0.01391,0.0169,0.02096,2,0,novel_cluster:2; Unknown:1,Homo sapiens:2; Gallus gallus:1,Unknown:2; Sanger:1
+novel_9,unknown,False,,2,0.01011,0.01011,0.01011,2,0,novel_cluster:2,Castor fiber:2,Sanger:2
+novel_10,unknown,False,,2,0.00476,0.00476,0.00476,1,0,novel_cluster:2,Homo sapiens:2,Sanger:2
+novel_12,unknown,False,,2,0.0,0.0,-0.0,1,0,novel_cluster:2,Homo sapiens:2,Sanger:2
+novel_13,unknown,False,,2,0.00577,0.00577,0.00577,1,0,novel_cluster:2,African spurred tortoise:2,Sanger:2
+novel_14,unknown,False,,2,0.0,0.0,-0.0,1,0,novel_cluster:2,Homo sapiens:1; Unknown:1,Sanger:2
+novel_15,unknown,False,,2,0.00932,0.00932,0.00932,1,0,novel_cluster:2,Felis catus domesticus:1; Rattus norvegicus:1,Sanger:2
+novel_16,unknown,False,,2,0.01552,0.01552,0.01552,2,0,novel_cluster:2,Unknown:2,Unknown:2
+novel_17,unknown,False,,2,0.00396,0.00396,0.00396,1,0,novel_cluster:2,Bufo japonicus japonicus (toad):1; Rana catesbeiana (bullfrog):1,Unknown:2
+ST_unassigned,unknown,False,,26,0.1899,0.18475,0.37304,26,0,unplaced:26,Homo sapiens:8; Unknown:6; Canis lupus familiaris:2,Sanger:17; Unknown:8; PacBio:1

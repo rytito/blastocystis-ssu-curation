@@ -1,0 +1,327 @@
+2026-09-02 17:06:53,727  INFO      ======================================================================
+2026-09-02 17:06:53,728  INFO        Blastocystis SSU rRNA Pipeline v5 — broad-first acquisition
+2026-09-02 17:06:53,728  INFO        Started: 2026-09-02T17:06:53.728044
+2026-09-02 17:06:53,728  INFO        Run mode: FULL ACQUISITION
+2026-09-02 17:06:53,728  INFO        Strategy: BROAD-FIRST (max 20000 records)
+2026-09-02 17:06:53,728  INFO        ST validation: ON
+2026-09-02 17:06:53,728  INFO        Narrow coverage check: OFF
+2026-09-02 17:06:53,728  INFO        Cross-ST dedup: ON
+2026-09-02 17:06:53,728  INFO        Keep unassigned: ON
+2026-09-02 17:06:53,728  INFO      ======================================================================
+2026-09-02 17:06:53,728  INFO      
+Subtypes selected: 40
+2026-09-02 17:06:53,728  INFO        ST1      [accepted    ] [human+]  Most prevalent globally; IBS association
+2026-09-02 17:06:53,728  INFO        ST2      [accepted    ] [human+]  Common in humans; urticaria association
+2026-09-02 17:06:53,728  INFO        ST3      [accepted    ] [human+]  Most prevalent globally; IBS-D association
+2026-09-02 17:06:53,728  INFO        ST4      [accepted    ] [human+]  Europe-dominant; possible immunoprotective role
+2026-09-02 17:06:53,728  INFO        ST5      [accepted    ] [human+]  Predominantly pigs; zoonotic in humans
+2026-09-02 17:06:53,728  INFO        ST6      [accepted    ] [human+]  Primarily birds/poultry
+2026-09-02 17:06:53,728  INFO        ST7      [accepted    ] [human+]  Primarily birds/poultry
+2026-09-02 17:06:53,728  INFO        ST8      [accepted    ] [human+]  Non-human primates; rare in humans
+2026-09-02 17:06:53,728  INFO        ST9      [accepted    ] [human+]  Human-specific; rare
+2026-09-02 17:06:53,728  INFO        ST10     [accepted    ] [human+]  Artiodactyls; rare human reports; now split ST42-44
+2026-09-02 17:06:53,728  INFO        ST11     [accepted    ] [animal]  Non-human primates
+2026-09-02 17:06:53,728  INFO        ST12     [accepted    ] [human+]  Non-human primates; occasional in humans
+2026-09-02 17:06:53,728  INFO        ST13     [accepted    ] [human+]  Rare; occasional human reports
+2026-09-02 17:06:53,728  INFO        ST14     [accepted    ] [human+]  Cattle/artiodactyls; rare in humans
+2026-09-02 17:06:53,728  INFO        ST15     [accepted    ] [animal]  Non-human primates
+2026-09-02 17:06:53,728  INFO        ST16     [accepted    ] [human+]  Rare; occasional human reports
+2026-09-02 17:06:53,728  INFO        ST17     [accepted    ] [animal]  Rodents; cattle
+2026-09-02 17:06:53,728  INFO        ST21     [accepted    ] [animal]  Avian; accepted after full-length validation
+2026-09-02 17:06:53,728  INFO        ST23     [accepted    ] [human+]  Reported in humans (Colombia, Thailand)
+2026-09-02 17:06:53,728  INFO        ST24     [tentative   ] [animal]  Cattle (USA)
+2026-09-02 17:06:53,728  INFO        ST25     [tentative   ] [animal]  Cattle
+2026-09-02 17:06:53,728  INFO        ST26     [accepted    ] [animal]  Cattle (USA); dominant in several US states
+2026-09-02 17:06:53,728  INFO        ST27     [accepted    ] [animal]  Full-length MinION validated
+2026-09-02 17:06:53,728  INFO        ST28     [accepted    ] [animal]  Full-length MinION validated
+2026-09-02 17:06:53,728  INFO        ST29     [accepted    ] [animal]  Full-length MinION validated
+2026-09-02 17:06:53,728  INFO        ST30     [tentative   ] [animal]  Limited data
+2026-09-02 17:06:53,728  INFO        ST31     [tentative   ] [animal]  Limited data
+2026-09-02 17:06:53,728  INFO        ST32     [tentative   ] [animal]  Limited data
+2026-09-02 17:06:53,728  INFO        ST33     [tentative   ] [animal]  Limited data
+2026-09-02 17:06:53,728  INFO        ST34     [tentative   ] [animal]  Limited data
+2026-09-02 17:06:53,728  INFO        ST35     [accepted    ] [human+]  Human isolate 168; Nanopore full-length validated
+2026-09-02 17:06:53,728  INFO        ST36     [accepted    ] [animal]  Wild bat (S. lilium)
+2026-09-02 17:06:53,728  INFO        ST37     [accepted    ] [animal]  Wild rodent (Heteromyidae)
+2026-09-02 17:06:53,728  INFO        ST38     [accepted    ] [animal]  European water vole
+2026-09-02 17:06:53,728  INFO        ST39     [tentative   ] [animal]  Recently proposed
+2026-09-02 17:06:53,728  INFO        ST40     [tentative   ] [animal]  Recently proposed; Algeria study
+2026-09-02 17:06:53,728  INFO        ST41     [tentative   ] [human+]  Reported in humans (China 2024)
+2026-09-02 17:06:53,728  INFO        ST42     [accepted    ] [animal]  ST10 split; Santin et al. 2024
+2026-09-02 17:06:53,728  INFO        ST43     [accepted    ] [animal]  ST10 split; Santin et al. 2024
+2026-09-02 17:06:53,728  INFO        ST44     [accepted    ] [animal]  ST10 split; Santin et al. 2024
+2026-09-02 17:06:53,740  INFO      
+Aligner: mafft
+2026-09-02 17:06:53,740  INFO      No API key — 3 req/sec (use --api-key to speed up)
+2026-09-02 17:06:53,740  INFO      
+[STEP 1A] BROAD ACQUISITION — genus-wide Blastocystis SSU rRNA
+2026-09-02 17:06:57,989  INFO        Fetching 18097 records in batches of 100...
+2026-09-02 17:13:15,663  INFO        Retrieved 18097/18097 records (18097 total matches in NCBI).
+2026-09-02 17:13:15,687  INFO        Broad query yielded 18097 new records.
+2026-09-02 17:13:15,687  INFO      
+[STEP 1B] CURATED REFERENCE ACCESSIONS
+2026-09-02 17:13:15,688  INFO        2 known references, 0 not yet fetched.
+2026-09-02 17:13:15,688  INFO      
+[STEP 1C] Skipping narrow coverage check (use --narrow-coverage-check to enable)
+2026-09-02 17:13:15,688  INFO      
+[STEP 1D-i] Record-quality filtering (RefSeq-predicted, mol_type)
+2026-09-02 17:13:15,703  WARNING     Quality filter on broad: dropped 13 RefSeq-predicted records (XM_/XR_/etc): ['XM_014674772.1', 'XM_014674745.1', 'XM_014674518.1', 'XM_014673909.1', 'XM_014673852.1']...
+2026-09-02 17:13:15,704  INFO      
+[STEP 1D-ii] Length-filtering all batches
+2026-09-02 17:13:15,712  INFO        Length filter on broad: 18084 → 1275
+2026-09-02 17:13:15,712  INFO      
+[STEP 1E] ASSIGNING ST per record
+2026-09-02 17:13:15,712  INFO        Two-stage: (i) parse source qualifiers; (ii) for unlabelled, place against curated + high-confidence seeds.
+2026-09-02 17:13:15,719  INFO        526 records labelled by source qualifiers; 749 need phylogenetic placement.
+2026-09-02 17:13:15,719  INFO        Placement seed set: 526 sequences spanning 43 STs.
+2026-09-02 17:13:15,719  INFO        Indexing 526 seeds...
+2026-09-02 17:13:15,806  INFO        Placing 749 records against seeds...
+2026-09-02 17:13:38,469  INFO        Placement: 668 placed, 81 unassigned.
+2026-09-02 17:13:38,469  INFO          Placement confidence breakdown:
+2026-09-02 17:13:38,469  INFO            low       : 276
+2026-09-02 17:13:38,469  INFO            high      : 223
+2026-09-02 17:13:38,469  INFO            medium    : 169
+2026-09-02 17:13:38,508  INFO      
+  Novel-subtype clustering of unplaced records
+2026-09-02 17:13:38,508  INFO        Novel clustering: 81 unplaced records at k-mer Jaccard cutoff 0.2
+2026-09-02 17:13:38,734  INFO          novel_1: n=7  median intra=0.009  example=KT438715.1
+2026-09-02 17:13:38,736  INFO          novel_2: n=7  median intra=0.057  example=KT438710.1
+2026-09-02 17:13:38,736  INFO          novel_3: n=5  median intra=0.153  example=MK375221.1
+2026-09-02 17:13:38,737  INFO          novel_4: n=5  median intra=0.060  example=KM216260.1
+2026-09-02 17:13:38,737  INFO          novel_5: n=4  median intra=0.019  example=EU427512.1
+2026-09-02 17:13:38,738  INFO          novel_6: n=3  median intra=0.093  example=PX663658.1
+2026-09-02 17:13:38,738  INFO          novel_7: n=3  median intra=0.155  example=PV329864.1
+2026-09-02 17:13:38,738  INFO          novel_8: n=3  median intra=0.128  example=MK880049.1
+2026-09-02 17:13:38,738  INFO          novel_9: n=2  median intra=0.116  example=PZ726877.1
+2026-09-02 17:13:38,738  INFO          novel_10: n=2  median intra=0.074  example=PX663630.1
+2026-09-02 17:13:38,738  INFO          novel_11: n=2  median intra=0.000  example=PX658848.1
+2026-09-02 17:13:38,738  INFO          novel_12: n=2  median intra=0.006  example=OR227930.1
+2026-09-02 17:13:38,739  INFO          novel_13: n=2  median intra=0.037  example=OQ693814.1
+2026-09-02 17:13:38,739  INFO          novel_14: n=2  median intra=0.011  example=OQ192091.1
+2026-09-02 17:13:38,739  INFO          novel_15: n=2  median intra=0.154  example=MN264518.1
+2026-09-02 17:13:38,739  INFO          novel_16: n=2  median intra=0.113  example=AY135410.1
+2026-09-02 17:13:38,739  INFO          novel_17: n=2  median intra=0.066  example=AY266470.1
+2026-09-02 17:13:38,739  INFO        Novel clustering result: 17 provisional novel groups, 26 singletons remain ST_unassigned.
+2026-09-02 17:13:38,743  INFO        Of 81 unplaced records: 55 assigned to provisional novel clusters, 26 remain ST_unassigned.
+2026-09-02 17:13:38,743  INFO      
+  Acquired 1275 new records this run (labelled: 526, placed: 668, novel: 55, unassigned: 26).
+2026-09-02 17:13:38,743  INFO      
+[STEP 1G] Cross-ST deduplication
+2026-09-02 17:13:38,744  INFO        Cross-ST dedup: 1275 → 1053
+2026-09-02 17:13:38,744  INFO      
+[STEP 1H] Writing FASTAs and manifest
+2026-09-02 17:13:38,745  INFO        ST2: 87 → /Users/u0101921/tasks/rRNA_pipeline_20260902/fasta/ST2_filtered.fasta
+2026-09-02 17:13:38,746  INFO        ST26: 17 → /Users/u0101921/tasks/rRNA_pipeline_20260902/fasta/ST26_filtered.fasta
+2026-09-02 17:13:38,746  INFO        ST42: 7 → /Users/u0101921/tasks/rRNA_pipeline_20260902/fasta/ST42_filtered.fasta
+2026-09-02 17:13:38,746  INFO        ST14: 12 → /Users/u0101921/tasks/rRNA_pipeline_20260902/fasta/ST14_filtered.fasta
+2026-09-02 17:13:38,747  INFO        ST10: 39 → /Users/u0101921/tasks/rRNA_pipeline_20260902/fasta/ST10_filtered.fasta
+2026-09-02 17:13:38,747  INFO        ST21: 12 → /Users/u0101921/tasks/rRNA_pipeline_20260902/fasta/ST21_filtered.fasta
+2026-09-02 17:13:38,747  INFO        ST39: 19 → /Users/u0101921/tasks/rRNA_pipeline_20260902/fasta/ST39_filtered.fasta
+2026-09-02 17:13:38,749  INFO        ST1: 222 → /Users/u0101921/tasks/rRNA_pipeline_20260902/fasta/ST1_filtered.fasta
+2026-09-02 17:13:38,750  INFO        ST3: 160 → /Users/u0101921/tasks/rRNA_pipeline_20260902/fasta/ST3_filtered.fasta
+2026-09-02 17:13:38,750  INFO        ST49: 1 → /Users/u0101921/tasks/rRNA_pipeline_20260902/fasta/ST49_filtered.fasta
+2026-09-02 17:13:38,750  INFO        ST13: 7 → /Users/u0101921/tasks/rRNA_pipeline_20260902/fasta/ST13_filtered.fasta
+2026-09-02 17:13:38,751  INFO        ST5: 42 → /Users/u0101921/tasks/rRNA_pipeline_20260902/fasta/ST5_filtered.fasta
+2026-09-02 17:13:38,751  INFO        ST8: 10 → /Users/u0101921/tasks/rRNA_pipeline_20260902/fasta/ST8_filtered.fasta
+2026-09-02 17:13:38,751  INFO        ST43: 4 → /Users/u0101921/tasks/rRNA_pipeline_20260902/fasta/ST43_filtered.fasta
+2026-09-02 17:13:38,751  INFO        ST40: 1 → /Users/u0101921/tasks/rRNA_pipeline_20260902/fasta/ST40_filtered.fasta
+2026-09-02 17:13:38,752  INFO        ST48: 2 → /Users/u0101921/tasks/rRNA_pipeline_20260902/fasta/ST48_filtered.fasta
+2026-09-02 17:13:38,752  INFO        ST47: 1 → /Users/u0101921/tasks/rRNA_pipeline_20260902/fasta/ST47_filtered.fasta
+2026-09-02 17:13:38,752  INFO        ST46: 2 → /Users/u0101921/tasks/rRNA_pipeline_20260902/fasta/ST46_filtered.fasta
+2026-09-02 17:13:38,752  INFO        ST45: 1 → /Users/u0101921/tasks/rRNA_pipeline_20260902/fasta/ST45_filtered.fasta
+2026-09-02 17:13:38,753  INFO        ST24: 16 → /Users/u0101921/tasks/rRNA_pipeline_20260902/fasta/ST24_filtered.fasta
+2026-09-02 17:13:38,753  INFO        ST25: 9 → /Users/u0101921/tasks/rRNA_pipeline_20260902/fasta/ST25_filtered.fasta
+2026-09-02 17:13:38,759  INFO        ST30: 6 → /Users/u0101921/tasks/rRNA_pipeline_20260902/fasta/ST30_filtered.fasta
+2026-09-02 17:13:38,765  INFO        ST23: 7 → /Users/u0101921/tasks/rRNA_pipeline_20260902/fasta/ST23_filtered.fasta
+2026-09-02 17:13:38,768  INFO        ST44: 5 → /Users/u0101921/tasks/rRNA_pipeline_20260902/fasta/ST44_filtered.fasta
+2026-09-02 17:13:38,783  INFO        ST37: 1 → /Users/u0101921/tasks/rRNA_pipeline_20260902/fasta/ST37_filtered.fasta
+2026-09-02 17:13:38,783  INFO        ST36: 1 → /Users/u0101921/tasks/rRNA_pipeline_20260902/fasta/ST36_filtered.fasta
+2026-09-02 17:13:38,784  INFO        ST35: 6 → /Users/u0101921/tasks/rRNA_pipeline_20260902/fasta/ST35_filtered.fasta
+2026-09-02 17:13:38,784  INFO        ST38: 1 → /Users/u0101921/tasks/rRNA_pipeline_20260902/fasta/ST38_filtered.fasta
+2026-09-02 17:13:38,785  INFO        ST34: 3 → /Users/u0101921/tasks/rRNA_pipeline_20260902/fasta/ST34_filtered.fasta
+2026-09-02 17:13:38,785  INFO        ST33: 2 → /Users/u0101921/tasks/rRNA_pipeline_20260902/fasta/ST33_filtered.fasta
+2026-09-02 17:13:38,785  INFO        ST32: 1 → /Users/u0101921/tasks/rRNA_pipeline_20260902/fasta/ST32_filtered.fasta
+2026-09-02 17:13:38,785  INFO        ST31: 1 → /Users/u0101921/tasks/rRNA_pipeline_20260902/fasta/ST31_filtered.fasta
+2026-09-02 17:13:38,785  INFO        ST28: 1 → /Users/u0101921/tasks/rRNA_pipeline_20260902/fasta/ST28_filtered.fasta
+2026-09-02 17:13:38,786  INFO        ST27: 1 → /Users/u0101921/tasks/rRNA_pipeline_20260902/fasta/ST27_filtered.fasta
+2026-09-02 17:13:38,786  INFO        ST6: 18 → /Users/u0101921/tasks/rRNA_pipeline_20260902/fasta/ST6_filtered.fasta
+2026-09-02 17:13:38,787  INFO        ST7: 45 → /Users/u0101921/tasks/rRNA_pipeline_20260902/fasta/ST7_filtered.fasta
+2026-09-02 17:13:38,787  INFO        ST29: 1 → /Users/u0101921/tasks/rRNA_pipeline_20260902/fasta/ST29_filtered.fasta
+2026-09-02 17:13:38,787  INFO        ST12: 69 → /Users/u0101921/tasks/rRNA_pipeline_20260902/fasta/ST12_filtered.fasta
+2026-09-02 17:13:38,788  INFO        ST11: 74 → /Users/u0101921/tasks/rRNA_pipeline_20260902/fasta/ST11_filtered.fasta
+2026-09-02 17:13:38,790  INFO        ST4: 36 → /Users/u0101921/tasks/rRNA_pipeline_20260902/fasta/ST4_filtered.fasta
+2026-09-02 17:13:38,791  INFO        ST15: 16 → /Users/u0101921/tasks/rRNA_pipeline_20260902/fasta/ST15_filtered.fasta
+2026-09-02 17:13:38,792  INFO        ST9: 6 → /Users/u0101921/tasks/rRNA_pipeline_20260902/fasta/ST9_filtered.fasta
+2026-09-02 17:13:38,793  INFO        ST17: 7 → /Users/u0101921/tasks/rRNA_pipeline_20260902/fasta/ST17_filtered.fasta
+2026-09-02 17:13:38,794  INFO        novel_9: 2 → /Users/u0101921/tasks/rRNA_pipeline_20260902/fasta/novel_9_filtered.fasta
+2026-09-02 17:13:38,794  INFO        novel_6: 2 → /Users/u0101921/tasks/rRNA_pipeline_20260902/fasta/novel_6_filtered.fasta
+2026-09-02 17:13:38,795  INFO        novel_10: 2 → /Users/u0101921/tasks/rRNA_pipeline_20260902/fasta/novel_10_filtered.fasta
+2026-09-02 17:13:38,795  INFO        ST_unassigned: 26 → /Users/u0101921/tasks/rRNA_pipeline_20260902/fasta/ST_unassigned_filtered.fasta
+2026-09-02 17:13:38,795  INFO        novel_11: 1 → /Users/u0101921/tasks/rRNA_pipeline_20260902/fasta/novel_11_filtered.fasta
+2026-09-02 17:13:38,797  INFO        novel_7: 3 → /Users/u0101921/tasks/rRNA_pipeline_20260902/fasta/novel_7_filtered.fasta
+2026-09-02 17:13:38,797  INFO        novel_12: 2 → /Users/u0101921/tasks/rRNA_pipeline_20260902/fasta/novel_12_filtered.fasta
+2026-09-02 17:13:38,798  INFO        novel_13: 2 → /Users/u0101921/tasks/rRNA_pipeline_20260902/fasta/novel_13_filtered.fasta
+2026-09-02 17:13:38,798  INFO        novel_14: 2 → /Users/u0101921/tasks/rRNA_pipeline_20260902/fasta/novel_14_filtered.fasta
+2026-09-02 17:13:38,798  INFO        novel_3: 5 → /Users/u0101921/tasks/rRNA_pipeline_20260902/fasta/novel_3_filtered.fasta
+2026-09-02 17:13:38,799  INFO        novel_15: 2 → /Users/u0101921/tasks/rRNA_pipeline_20260902/fasta/novel_15_filtered.fasta
+2026-09-02 17:13:38,799  INFO        novel_8: 3 → /Users/u0101921/tasks/rRNA_pipeline_20260902/fasta/novel_8_filtered.fasta
+2026-09-02 17:13:38,802  INFO        novel_1: 4 → /Users/u0101921/tasks/rRNA_pipeline_20260902/fasta/novel_1_filtered.fasta
+2026-09-02 17:13:38,804  INFO        novel_2: 7 → /Users/u0101921/tasks/rRNA_pipeline_20260902/fasta/novel_2_filtered.fasta
+2026-09-02 17:13:38,805  INFO        novel_4: 5 → /Users/u0101921/tasks/rRNA_pipeline_20260902/fasta/novel_4_filtered.fasta
+2026-09-02 17:13:38,807  INFO        novel_5: 2 → /Users/u0101921/tasks/rRNA_pipeline_20260902/fasta/novel_5_filtered.fasta
+2026-09-02 17:13:38,811  INFO        novel_16: 2 → /Users/u0101921/tasks/rRNA_pipeline_20260902/fasta/novel_16_filtered.fasta
+2026-09-02 17:13:38,811  INFO        novel_17: 2 → /Users/u0101921/tasks/rRNA_pipeline_20260902/fasta/novel_17_filtered.fasta
+2026-09-02 17:13:38,837  INFO        Combined: 1053 → /Users/u0101921/tasks/rRNA_pipeline_20260902/fasta/all_subtypes.fasta
+2026-09-02 17:13:38,837  INFO        Manifest: /Users/u0101921/tasks/rRNA_pipeline_20260902/fasta/manifest.csv
+2026-09-02 17:13:38,838  INFO      
+[STEP 2] Aligning (mafft)...
+2026-09-02 17:13:44,226  INFO        MAFFT alignment → /Users/u0101921/tasks/rRNA_pipeline_20260902/aligned/all_subtypes_aligned.fasta
+2026-09-02 17:13:44,239  INFO        1053 sequences ready for analysis
+2026-09-02 17:13:44,239  INFO      
+[STEP 3] Pairwise distance matrix
+2026-09-02 17:13:44,256  INFO        Vectorised p-distance for 1053 sequences...
+2026-09-02 17:13:45,024  INFO        Applying Jukes-Cantor correction...
+2026-09-02 17:13:45,675  INFO        ✔ distance_matrix.csv + .npz
+2026-09-02 17:13:45,676  INFO      
+[STEP 4] Clustering
+2026-09-02 17:13:45,716  INFO        Clustering complete. 76 potential novel-variant candidates.
+2026-09-02 17:13:45,720  INFO        ✔ /Users/u0101921/tasks/rRNA_pipeline_20260902/clusters/cluster_assignments.csv
+2026-09-02 17:13:45,720  INFO      
+[STEP 5] Neighbor-joining tree
+2026-09-02 17:13:45,720  INFO        Skipping NJ (>1000 seqs). For publication-grade tree:
+2026-09-02 17:13:45,720  INFO          iqtree -s /Users/u0101921/tasks/rRNA_pipeline_20260902/aligned/all_subtypes_aligned.fasta -m GTR+G -bb 1000 -nt AUTO
+2026-09-02 17:13:45,720  INFO      
+[STEP 6] Ordination
+2026-09-02 17:13:45,720  INFO        Computing UMAP embedding...
+2026-09-02 17:13:49,558  INFO      
+[STEP 7] Plots & reports
+2026-09-02 17:13:50,045  INFO        ✔ /Users/u0101921/tasks/rRNA_pipeline_20260902/plots/ordination.png
+2026-09-02 17:13:50,559  INFO        ✔ /Users/u0101921/tasks/rRNA_pipeline_20260902/plots/distance_heatmap.png
+2026-09-02 17:13:51,008  INFO        ✔ /Users/u0101921/tasks/rRNA_pipeline_20260902/plots/intra_inter_boxplot.png
+2026-09-02 17:13:51,108  INFO        ✔ /Users/u0101921/tasks/rRNA_pipeline_20260902/plots/intra_inter_novel.png
+2026-09-02 17:13:51,662  INFO        ✔ /Users/u0101921/tasks/rRNA_pipeline_20260902/plots/technology_breakdown.png
+2026-09-02 17:13:51,957  INFO        ✔ /Users/u0101921/tasks/rRNA_pipeline_20260902/plots/host_distribution.png
+2026-09-02 17:13:51,959  INFO        Country: 910/1053 known; Year: 346/1053 known
+2026-09-02 17:13:52,776  INFO        ✔ /Users/u0101921/tasks/rRNA_pipeline_20260902/plots/geographic_temporal.png
+2026-09-02 17:13:53,288  INFO        ✔ /Users/u0101921/tasks/rRNA_pipeline_20260902/plots/novel_clusters.png
+2026-09-02 17:13:53,374  INFO        ✔ /Users/u0101921/tasks/rRNA_pipeline_20260902/plots/acquisition_breakdown.png
+2026-09-02 17:13:53,401  INFO        ✔ /Users/u0101921/tasks/rRNA_pipeline_20260902/distances/summary_per_subtype.csv
+2026-09-02 17:13:54,652  INFO        ✔ /Users/u0101921/tasks/rRNA_pipeline_20260902/plots/interactive_report.html
+2026-09-02 17:13:54,653  INFO      
+======================================================================
+2026-09-02 17:13:54,653  INFO        PIPELINE COMPLETE — v5
+2026-09-02 17:13:54,653  INFO      ======================================================================
+2026-09-02 17:13:54,653  INFO        Sequences analysed       : 1053
+2026-09-02 17:13:54,653  INFO        Subtypes in query        : 40
+2026-09-02 17:13:54,654  INFO        Subtypes with sequences  : 61
+2026-09-02 17:13:54,654  INFO        Variant-level clusters   : 264
+2026-09-02 17:13:54,654  INFO        Novel-variant candidates : 76
+2026-09-02 17:13:54,654  INFO      
+  Provisional novel-subtype clusters:
+2026-09-02 17:13:54,656  INFO          novel_1       : n=4     top host(s): ['Unknown', 'Carettochelys insculpta']
+2026-09-02 17:13:54,657  INFO          novel_10      : n=2     top host(s): ['Homo sapiens']
+2026-09-02 17:13:54,657  INFO          novel_11      : n=1     top host(s): ['Homo sapiens']
+2026-09-02 17:13:54,658  INFO          novel_12      : n=2     top host(s): ['Homo sapiens']
+2026-09-02 17:13:54,659  INFO          novel_13      : n=2     top host(s): ['African spurred tortoise']
+2026-09-02 17:13:54,660  INFO          novel_14      : n=2     top host(s): ['Homo sapiens', 'Unknown']
+2026-09-02 17:13:54,661  INFO          novel_15      : n=2     top host(s): ['Felis catus domesticus', 'Rattus norvegicus']
+2026-09-02 17:13:54,662  INFO          novel_16      : n=2     top host(s): ['Unknown']
+2026-09-02 17:13:54,662  INFO          novel_17      : n=2     top host(s): ['Bufo japonicus japonicus (toad)', 'Rana catesbeiana (bullfrog)']
+2026-09-02 17:13:54,663  INFO          novel_2       : n=7     top host(s): ['Geochelone elegans', 'Testudo graeca']
+2026-09-02 17:13:54,664  INFO          novel_3       : n=5     top host(s): ['Sus scrofa']
+2026-09-02 17:13:54,665  INFO          novel_4       : n=5     top host(s): ['Homo sapiens']
+2026-09-02 17:13:54,665  INFO          novel_5       : n=2     top host(s): ['Macropus rufus (red kangaroo)']
+2026-09-02 17:13:54,666  INFO          novel_6       : n=2     top host(s): ['Homo sapiens']
+2026-09-02 17:13:54,667  INFO          novel_7       : n=3     top host(s): ['Unknown', 'Felis catus domesticus']
+2026-09-02 17:13:54,668  INFO          novel_8       : n=3     top host(s): ['Homo sapiens', 'Gallus gallus']
+2026-09-02 17:13:54,668  INFO          novel_9       : n=2     top host(s): ['Castor fiber']
+2026-09-02 17:13:54,668  INFO          ST_unassigned : n=26  (singletons that did not form a coherent novel cluster)
+2026-09-02 17:13:54,668  INFO      
+  ST-claim confidence:
+2026-09-02 17:13:54,669  INFO          high                  : 517  (49.1%)
+2026-09-02 17:13:54,669  INFO          low                   : 239  (22.7%)
+2026-09-02 17:13:54,669  INFO          medium                : 129  (12.3%)
+2026-09-02 17:13:54,669  INFO          Unknown               : 98  (9.3%)
+2026-09-02 17:13:54,669  INFO          novel_cluster         : 44  (4.2%)
+2026-09-02 17:13:54,669  INFO          unplaced              : 26  (2.5%)
+2026-09-02 17:13:54,669  INFO      
+  Host derivation:
+2026-09-02 17:13:54,669  INFO          Unknown               : 500  (47.5%)
+2026-09-02 17:13:54,669  INFO          host_qualifier        : 392  (37.2%)
+2026-09-02 17:13:54,669  INFO          unknown               : 74  (7.0%)
+2026-09-02 17:13:54,669  INFO          organism              : 67  (6.4%)
+2026-09-02 17:13:54,669  INFO          note                  : 13  (1.2%)
+2026-09-02 17:13:54,669  INFO          isolation_source      : 7  (0.7%)
+2026-09-02 17:13:54,669  INFO      
+  Sequencing technologies:
+2026-09-02 17:13:54,670  INFO          Sanger                : 588  (55.8%)
+2026-09-02 17:13:54,670  INFO          Unknown               : 237  (22.5%)
+2026-09-02 17:13:54,670  INFO          ONT                   : 107  (10.2%)
+2026-09-02 17:13:54,670  INFO          Ion Torrent           : 72  (6.8%)
+2026-09-02 17:13:54,670  INFO          PacBio                : 43  (4.1%)
+2026-09-02 17:13:54,670  INFO          Illumina              : 6  (0.6%)
+2026-09-02 17:13:54,670  INFO      
+  Outputs:
+2026-09-02 17:13:54,670  INFO          Aligned FASTA    : /Users/u0101921/tasks/rRNA_pipeline_20260902/aligned/all_subtypes_aligned.fasta
+2026-09-02 17:13:54,670  INFO          Distance matrix  : distances/distance_matrix.{csv,npz}
+2026-09-02 17:13:54,670  INFO          Cluster table    : /Users/u0101921/tasks/rRNA_pipeline_20260902/clusters/cluster_assignments.csv
+2026-09-02 17:13:54,670  INFO          Per-ST summary   : distances/summary_per_subtype.csv
+2026-09-02 17:13:54,670  INFO          Manifest         : fasta/manifest.csv
+2026-09-02 17:13:54,670  INFO          Run config       : run_config.json
+2026-09-02 17:13:54,670  INFO          Plots            : plots/*.png
+2026-09-02 17:13:54,670  INFO          Interactive      : plots/interactive_report.html
+2026-09-02 17:13:54,670  INFO      
+  For publication-quality phylogeny:
+2026-09-02 17:13:54,670  INFO          iqtree -s /Users/u0101921/tasks/rRNA_pipeline_20260902/aligned/all_subtypes_aligned.fasta -m GTR+G -bb 1000 -nt AUTO
+2026-09-02 17:13:54,670  INFO      ======================================================================
+2026-09-02 17:13:54,670  INFO      
+  Per-subtype summary:
+2026-09-02 17:13:54,684  INFO            subtype    status  reported_in_humans                                       registry_note  n_sequences  mean_intra  median_intra  max_intra  n_variant_clusters  n_novel_candidates                    confidence_breakdown                                                                  top_hosts                                 sequencing_technologies
+          ST1  accepted                True            Most prevalent globally; IBS association          222     0.02042       0.02138    0.09012                  44                   0 high:131; medium:49; low:29; Unknown:13                       Homo sapiens:107; long-tailed macaque:39; Unknown:17 Sanger:136; Unknown:64; Ion Torrent:15; PacBio:6; ONT:1
+          ST2  accepted                True             Common in humans; urticaria association           87     0.02674       0.01743    0.17929                  15                  15    high:54; medium:19; low:9; Unknown:5               Homo sapiens:42; long-tailed macaque:13; Macaca thibetana:11   Sanger:55; Unknown:28; Ion Torrent:2; ONT:1; PacBio:1
+          ST3  accepted                True          Most prevalent globally; IBS-D association          160     0.02811       0.02890    0.17470                  30                   1   high:89; medium:37; low:26; Unknown:8                           Homo sapiens:84; Macaca thibetana:20; Unknown:20       Sanger:119; Unknown:20; PacBio:11; Ion Torrent:10
+          ST4  accepted                True     Europe-dominant; possible immunoprotective role           36     0.00872       0.00954    0.02032                   3                   0     high:28; Unknown:3; low:3; medium:2                      Homo sapiens:8; Rattus exulans:6; Ruttus novercious:4                            Sanger:20; Unknown:14; ONT:2
+          ST5  accepted                True              Predominantly pigs; zoonotic in humans           42     0.00442       0.00290    0.03060                   2                   1     Unknown:32; high:8; low:1; medium:1                      Sus scrofa domesticus:32; Sus scrofa:6; Tibetan Pig:1                    Ion Torrent:31; Unknown:10; Sanger:1
+          ST6  accepted                True                             Primarily birds/poultry           18     0.01185       0.00653    0.03530                   3                   2                high:12; medium:4; low:2                        Homo sapiens:9; Gallus gallus:4; Saltator similis:1                          Unknown:11; Sanger:6; PacBio:1
+          ST7  accepted                True                             Primarily birds/poultry           45     0.02502       0.01499    0.06515                  10                   9                      high:35; medium:10                               Unknown:18; Homo sapiens:12; Gallus gallus:8                                   Sanger:26; Unknown:19
+          ST8  accepted                True                  Non-human primates; rare in humans           10     0.00576       0.00509    0.01287                   2                   0      high:4; low:4; Unknown:1; medium:1                   Canis lupus familiaris:3; Homo sapiens:2; Capra hircus:1                                     Unknown:5; Sanger:5
+          ST9  accepted                True                                Human-specific; rare            6     0.00890       0.00835    0.01602                   2                   0                 medium:3; high:2; low:1                                            Homo sapiens:5; Gallus gallus:1                                     Sanger:4; Unknown:2
+         ST10  accepted                True Artiodactyls; rare human reports; now split ST42-44           39     0.02226       0.01877    0.07388                  13                   8     high:30; low:5; Unknown:3; medium:1                               Bos taurus:10; Ovis aries:10; Capra hircus:4                           Sanger:20; ONT:17; Illumina:2
+         ST11  accepted               False                                  Non-human primates           74     0.01821       0.00287    0.12724                   4                   8                          low:71; high:3                                          iguana:71; Elephant:2; elephant:1                             Sanger:71; ONT:2; Unknown:1
+         ST12  accepted                True            Non-human primates; occasional in humans           69     0.03444       0.02070    0.13057                  41                  15                          low:62; high:7                                   Sus scrofa:55; Homo sapiens:4; giraffe:3                        Sanger:23; Unknown:23; PacBio:23
+         ST13  accepted                True                      Rare; occasional human reports            7     0.15893       0.04156    0.32243                   4                   2                high:3; Unknown:2; low:2                        Eastern grey kangaroo:2; Dugong dugon:2; Roe deer:1                              Unknown:3; Sanger:3; ONT:1
+         ST14  accepted                True                 Cattle/artiodactyls; rare in humans           12     0.02096       0.02684    0.04348                   5                   4                                 high:12                                Bos taurus:6; Ovis aries:4; Bos grunniens:1                                         Sanger:6; ONT:6
+         ST15  accepted               False                                  Non-human primates           16     0.00483       0.00481    0.01081                   1                   0                      Unknown:14; high:2           Sus scrofa domesticus:14; Hylobates lar:1; Camelus dromedarius:1                                Ion Torrent:14; Sanger:2
+         ST17  accepted               False                                     Rodents; cattle            7     0.08656       0.10841    0.12316                   5                   0                low:5; high:1; Unknown:1                         cockroach:4; Ctenodactylus gundi:1; Homo sapiens:1                              Unknown:5; Sanger:1; ONT:1
+         ST21  accepted               False        Avian; accepted after full-length validation           12     0.01629       0.00344    0.06033                   4                   3                          high:10; low:2                                      Ovis aries:4; Bos taurus:3; Unknown:2                                         ONT:8; Sanger:4
+         ST23  accepted                True             Reported in humans (Colombia, Thailand)            7     0.01565       0.00057    0.05439                   2                   1                                  high:7                                 Capra hircus:3; Ovis aries:2; Bos taurus:2                                         ONT:6; Sanger:1
+         ST24 tentative               False                                        Cattle (USA)           16     0.01161       0.01599    0.02074                   3                   0                      high:15; Unknown:1                          Ovis aries:9; Capra hircus:3; White-tailed deer:2                                        ONT:15; Sanger:1
+         ST25 tentative               False                                              Cattle            9     0.01552       0.00908    0.05096                   3                   1                       high:7; Unknown:2                                     Bos taurus:5; Ovis aries:1; Red deer:1                                        ONT:8; Unknown:1
+         ST26  accepted               False         Cattle (USA); dominant in several US states           17     0.02111       0.02519    0.04915                   8                   6                high:10; low:5; medium:2                                      Bos taurus:8; Unknown:7; Ovis aries:1                                        Sanger:10; ONT:7
+         ST30 tentative               False                                        Limited data            6     0.00094       0.00113    0.00169                   1                   0                       high:3; Unknown:3 Odocoileus virginianus (white-tailed deer):3; Ovis aries:2; Capra hircus:1                                       ONT:3; Illumina:3
+         ST33 tentative               False                                        Limited data            2     0.00000       0.00000   -0.00000                   1                   0                                  high:2                                                           Equus caballus:2                                                   ONT:2
+         ST34 tentative               False                                        Limited data            3     0.10842       0.10472    0.12417                   3                   0                           low:2; high:1                 Equus caballus:1; Kinixys belliana:1; Geochelone radiata:1                                        Unknown:2; ONT:1
+         ST35  accepted                True   Human isolate 168; Nanopore full-length validated            6     0.11567       0.15125    0.16408                   4                   0                           low:5; high:1                       Morelia viridis:2; Homo sapiens:1; Boa constrictor:1                              Sanger:3; Unknown:2; ONT:1
+         ST39 tentative               False                                   Recently proposed           19     0.00875       0.00946    0.01712                   2                   0                                 high:19                                      Macaca thibetana:11; Macaca mulatta:8                                               Sanger:19
+         ST42  accepted               False                      ST10 split; Santin et al. 2024            7     0.00536       0.00625    0.00968                   1                   0                low:4; Unknown:2; high:1                                                               Bos taurus:7                                         ONT:6; Sanger:1
+         ST43  accepted               False                      ST10 split; Santin et al. 2024            4     0.00028       0.00028    0.00057                   1                   0                                  high:4                                                               Ovis aries:4                                                   ONT:4
+         ST44  accepted               False                      ST10 split; Santin et al. 2024            5     0.00125       0.00170    0.00227                   1                   0                                  high:5                                                 Ovis aries:3; Bos taurus:2                                                   ONT:5
+         ST46   unknown               False                                                                2     0.02677       0.02677    0.02677                   2                   0                               Unknown:2                                                    Eastern grey kangaroo:2                                               Unknown:2
+         ST48   unknown               False                                                                2     0.09245       0.09245    0.09245                   2                   0                           high:1; low:1                                   Pan troglodytes:1; Geochelone pardalis:1                                        ONT:1; Unknown:1
+      novel_1   unknown               False                                                                4     0.00066       0.00057    0.00115                   1                   0              Unknown:3; novel_cluster:1                             Unknown:2; Carettochelys insculpta:1; python:1                                     Sanger:3; Unknown:1
+      novel_2   unknown               False                                                                7     0.00552       0.00236    0.01503                   2                   0                         novel_cluster:7            Geochelone elegans:2; Testudo graeca:1; Stigmochelys pardalis:1                                     Sanger:6; Unknown:1
+      novel_3   unknown               False                                                                5     0.01635       0.01837    0.02666                   4                   0                         novel_cluster:5                                                               Sus scrofa:5                                     Sanger:4; Unknown:1
+      novel_4   unknown               False                                                                5     0.00318       0.00000    0.00802                   2                   0                         novel_cluster:5                                                             Homo sapiens:5                                     Unknown:4; Sanger:1
+      novel_5   unknown               False                                                                2     0.00115       0.00115    0.00115                   1                   0                         novel_cluster:2                                            Macropus rufus (red kangaroo):2                                               Unknown:2
+      novel_6   unknown               False                                                                2     0.00761       0.00761    0.00761                   1                   0                         novel_cluster:2                                                             Homo sapiens:2                                                Sanger:2
+      novel_7   unknown               False                                                                3     0.00821       0.00838    0.00861                   1                   0                         novel_cluster:3                   Unknown:1; Felis catus domesticus:1; Rattus norvegicus:1                                                Sanger:3
+      novel_8   unknown               False                                                                3     0.01391       0.01690    0.02096                   2                   0              novel_cluster:2; Unknown:1                                            Homo sapiens:2; Gallus gallus:1                                     Unknown:2; Sanger:1
+      novel_9   unknown               False                                                                2     0.01011       0.01011    0.01011                   2                   0                         novel_cluster:2                                                             Castor fiber:2                                                Sanger:2
+     novel_10   unknown               False                                                                2     0.00476       0.00476    0.00476                   1                   0                         novel_cluster:2                                                             Homo sapiens:2                                                Sanger:2
+     novel_12   unknown               False                                                                2     0.00000       0.00000   -0.00000                   1                   0                         novel_cluster:2                                                             Homo sapiens:2                                                Sanger:2
+     novel_13   unknown               False                                                                2     0.00577       0.00577    0.00577                   1                   0                         novel_cluster:2                                                 African spurred tortoise:2                                                Sanger:2
+     novel_14   unknown               False                                                                2     0.00000       0.00000   -0.00000                   1                   0                         novel_cluster:2                                                  Homo sapiens:1; Unknown:1                                                Sanger:2
+     novel_15   unknown               False                                                                2     0.00932       0.00932    0.00932                   1                   0                         novel_cluster:2                              Felis catus domesticus:1; Rattus norvegicus:1                                                Sanger:2
+     novel_16   unknown               False                                                                2     0.01552       0.01552    0.01552                   2                   0                         novel_cluster:2                                                                  Unknown:2                                               Unknown:2
+     novel_17   unknown               False                                                                2     0.00396       0.00396    0.00396                   1                   0                         novel_cluster:2           Bufo japonicus japonicus (toad):1; Rana catesbeiana (bullfrog):1                                               Unknown:2
+ST_unassigned   unknown               False                                                               26     0.18990       0.18475    0.37304                  26                   0                             unplaced:26                        Homo sapiens:8; Unknown:6; Canis lupus familiaris:2                          Sanger:17; Unknown:8; PacBio:1

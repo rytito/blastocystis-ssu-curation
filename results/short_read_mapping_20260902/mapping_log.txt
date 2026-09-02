@@ -1,0 +1,27 @@
+2026-09-02 17:14:56,041  INFO      [1] Broad NCBI query (same query as the main pipeline)
+2026-09-02 17:14:56,904  INFO        Fetching 18097 records in batches of 100...
+2026-09-02 17:21:53,985  INFO        Retrieved 18097/18097 records (18097 total matches in NCBI).
+2026-09-02 17:21:54,011  INFO        18097 records: 16806 short [100-999 bp] to map, 1278 full-length (main pipeline's territory), 12 < 100 bp, 1 > 2500 bp
+2026-09-02 17:21:54,268  INFO        Cached 16806 short records to short_records.fasta (reuse with --skip-download)
+2026-09-02 17:21:54,268  INFO      [2] Building reference k-mer index
+2026-09-02 17:21:54,297  INFO        References: 1027 sequences, 43 ST labels + 17 novel clusters
+2026-09-02 17:21:54,973  INFO      [3] Assigning 16806 short records by 8-mer containment
+2026-09-02 17:22:05,484  INFO      [4] Summaries
+2026-09-02 17:22:05,502  INFO        Mapped 15181/16806 (90.3%) — high:11711; medium:2816; unmapped:1175; low:654; ambiguous:450
+2026-09-02 17:22:05,502  INFO        Barcode records hitting provisional novel clusters: 68 across 6 clusters
+2026-09-02 17:22:05,504  INFO        Top 10 assigned labels:
+             n  median_dist  high                                              top_hosts                       top_countries
+assigned                                                                                                                    
+ST3       4085      0.01420  3420       Homo sapiens:3054; Unknown:503; Primates sp.:127    Unknown:687; China:329; Iran:267
+ST1       2998      0.01315  2431        Homo sapiens:1995; Unknown:411; Primates sp.:53    Unknown:427; China:301; Iran:230
+ST2       2137      0.02860  1552      Homo sapiens:1476; Unknown:299; Alouatta pigra:56   Unknown:292; Iran:226; Mexico:113
+ST5        857      0.01080   732  Sus scrofa:249; Unknown:163; Sus scrofa domesticus:67     China:130; Unknown:71; Egypt:65
+ST10       757      0.01830   572        Bos taurus:222; Ovis aries:122; Capra hircus:52        China:272; Egypt:66; Iran:55
+ST7        715      0.05410   318        Gallus gallus:226; Homo sapiens:176; Unknown:61  Brazil:181; Thailand:103; China:94
+ST4        613      0.02500   489           Homo sapiens:193; Unknown:137; water vole:38  Unknown:116; China:96; Portugal:62
+ST24       409      0.02760   312          Bos taurus:78; Ovis aries:72; Capra hircus:53    China:127; Portugal:38; Spain:27
+ST42       397      0.01820   295            Bos taurus:228; Unknown:50; Homo sapiens:26    China:87; Malaysia:37; France:34
+ST26       267      0.02370   186              Bos taurus:125; Ovis aries:27; Unknown:16          China:57; Egypt:26; USA:23
+2026-09-02 17:22:05,504  INFO      [5] Comparison chart
+2026-09-02 17:22:05,605  INFO        ✔ /Users/u0101921/tasks/short_read_mapping_20260902/st_distribution_short_vs_full.png
+2026-09-02 17:22:05,605  INFO      Done. Outputs in /Users/u0101921/tasks/short_read_mapping_20260902/

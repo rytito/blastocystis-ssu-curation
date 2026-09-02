@@ -88,24 +88,46 @@ rRNA_pipeline/
 └── pipeline_log.txt
 ```
 
-## Headline results (run of 2026-08-13)
+## Headline results (run of 2026-09-02)
 
-The provenance manifest and per-ST summary of the latest run are in
-[`results/run_20260813/`](results/run_20260813/).
+The provenance manifest, per-ST summary, cluster assignments and full log of
+the latest run are in [`results/run_20260902/`](results/run_20260902/); the
+previous run is kept alongside in
+[`results/run_20260813/`](results/run_20260813/) so the two can be diffed.
 
-- 18,074 records pulled by the broad query → **1,052** near-full-length,
-  deduplicated, audited sequences across 62 ST labels (92.7 % known).
-- Tight intra-ST clustering: median intra-distance 0.021 vs inter 0.121
-  (Cliff's δ = −0.981) — STs are real, separable clusters.
-- 18 provisional `novel_N` clusters; the tortoise cluster (7 records, six
-  tortoise species, two countries: KT438705–KT438710 + EF209018) is
-  consistent with a genuine chelonian lineage and is offered as a hypothesis
-  for formal follow-up under the Stensvold & Clark criteria.
+- 18,097 records pulled by the broad query -> **1,053** near-full-length,
+  deduplicated, audited sequences across 61 labels (43 accepted or tentative
+  subtypes covering 979 records).
+- Tight intra-ST clustering: median intra-distance 0.021 vs inter 0.123
+  (Cliff's delta = -0.976, over 478,731 pairs) - STs are real, separable clusters.
+- 81 records match no accepted subtype: **17** provisional `novel_N` clusters
+  (48 records) plus 26 `ST_unassigned` singletons. The tortoise cluster
+  (7 records, six tortoise species, two countries: KT438705-KT438710 +
+  EF209018) is consistent with a genuine chelonian lineage and is offered as a
+  hypothesis for formal follow-up under the Stensvold & Clark criteria.
 
-Numbers shift as new deposits land; the pipeline is designed to be re-run.
-Between the May and August 2026 runs, 10 new records entered the curated set,
-including the first direct ST42 record (Bos taurus, Portugal) and a new
-2-record novel cluster from Eurasian beaver (*Castor fiber*, Czechia).
+**`novel_N` labels are run-specific.** They are assigned in size order and
+renumber between runs: the chelonian cluster is `novel_3` in the August run and
+`novel_2` in September; the *Castor fiber* cluster `novel_10` -> `novel_9`.
+Identify clusters by host/accession composition, never by number.
+
+### What changed since 2026-08-13
+
+Two things changed at once - a fresh GenBank screening and one methods change.
+`compare_runs.py` and `compare_barcode.py` regenerate the full diff; the
+narrative version is in [`CHANGES_20260902.md`](CHANGES_20260902.md).
+
+- **One new record entered the set**, and it is the first African
+  near-full-length sequence: `PZ873232.1`, ST2, Malawi (Zomba), 2024, ONT.
+  Africa was a flat zero across 28 countries in August; it is now 1 record of
+  910 with a known country, across 29.
+- **A novel cluster dissolved.** With the enlarged ST2 seed set, two
+  *Gorilla gorilla* records (`JX159034`, `JX159024`) and one Argentinian record
+  (`MZ783086`) became placeable in ST2, so unplaced records fell 90 -> 81 and
+  clusters 18 -> 17. Novel-cluster calls are sensitive to reference
+  completeness; this is the same effect as the ST41->ST17 case.
+- ST2 is the only subtype whose count changed (83 -> 87). Hosts, geography,
+  technology composition and the separation statistics are otherwise stable.
 
 ## Companion analysis: barcode-region mapping
 
@@ -123,14 +145,34 @@ python map_short_reads.py --email you@example.com \
     --refs ./rRNA_pipeline/fasta --output-dir ./short_read_mapping
 ```
 
-Run of 2026-08-13 ([`results/short_read_mapping_20260813/`](results/short_read_mapping_20260813/)):
-16,784 barcode records, **92.8 % subtype-called** (12,010 high-confidence);
-ST3/ST1/ST2 dominate as expected. Notably, **121 barcode records from
-independent studies map into 11 of the 18 provisional novel clusters** —
-including 7 high-confidence tortoise-lineage hits (four exact-match) from
-accession series disjoint from the cluster's full-length references, and an
-independent *Castor fiber* (Slovakia) hit on the beaver cluster first seen
-in the August full-length run.
+### Separation check (added 2026-09-02)
+
+Confidence tiers measure how *close* a fragment is to its nearest reference,
+not whether that reference is distinguishable from the runner-up. Because ST10
+was split into ST42-44 on a ~2 % full-length threshold, and a ~600 bp window
+cannot resolve that, a fragment can sit inside the "high" band of two subtypes
+at once: in the August run **100 % of ST44 calls and 84 % of ST43 calls** had a
+sibling in their own top-5, a quarter of them exact ties.
+
+`--margin` (default 0.01) now requires every call to beat the nearest
+*differently-labelled* reference by that margin. Failing calls collapse to an
+agreed complex label (`ST10-complex = {ST10, ST42, ST43, ST44}`) or, where no
+complex is defined, are marked `ambiguous`. A `separation_note` column records
+which sibling caused each collapse and by what gap. Thanks to Eleni Gentekaki
+for raising this.
+
+Run of 2026-09-02 ([`results/short_read_mapping_20260902/`](results/short_read_mapping_20260902/)):
+16,806 barcode records, **90.3 % subtype-called** (11,711 high-confidence),
+down from 92.8 % in August because of the separation check. 178 records are now
+reported as `ST10-complex`; ST44 drops 174 -> 57 and ST43 58 -> 48, while ST42
+barely moves (403 -> 397), consistent with its 3.2-3.9 % separation from the
+other three.
+
+**68 barcode records from independent studies map into 6 of the 17 provisional
+novel clusters** (was 121 across 11). The corroboration that fell away was
+colliding with an accepted subtype - novel_5 vs ST4, novel_8 vs ST3, novel_4 vs
+ST12 - so it was never evidence of novelty. The chelonian lineage is untouched:
+12 records, 7 at high confidence, before and after.
 
 ## What it is not
 
