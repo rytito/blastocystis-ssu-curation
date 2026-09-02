@@ -143,6 +143,8 @@ a perfect match).
 ```bash
 python map_short_reads.py --email you@example.com \
     --refs ./rRNA_pipeline/fasta --output-dir ./short_read_mapping
+
+# --margin 0 disables the separation check, reproducing pre-2026-09-02 behaviour
 ```
 
 ### Separation check (added 2026-09-02)
